@@ -46,12 +46,14 @@ class ProjectPage extends Component {
     return (
       <div className={`projectPage ${isProjectPageDisplayed}`}>
         <div className={`randomFact ${randomFactDisplay}`}>
-          <h4>Random fact about this projects is</h4>
-          <p>{this.props.activeproject.randomFact}</p>
-          <img
-            src={require("../assets/randomProjectImg/chad.png")}
-            alt="Random"
-          />
+          <div className="innerRandomFact">
+            <img
+              src={require("../assets/randomProjectImg/chad.png")}
+              alt="Random"
+            />
+            <h4>Random fact about this projects is</h4>
+            <p>{this.props.activeproject.randomFact}</p>
+          </div>
         </div>
         <button
           className="closeBtn"
