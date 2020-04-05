@@ -19,5 +19,26 @@
     "featuredImage": "chad.png",
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
+  },
+  {
+    "id": 2,
+    "projectName": "Celine marie",
+    "projectLink": "https://indre101.github.io/Adventures_of_chad/",
+    "typeOfProject": "Animation/Game",
+    "individualOrGroup": "Individual",
+    "myResponsibilities": ["Character design", "story developer", "coding"],
+    "projectsGoal": "Create and code an animated story",
+    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
+    "aboutTheProject": "This project was heavily focused on the animation and developing a story and character in a certain style, that was chosen",
+    "factsAboutTheProject": [
+      "This project was an individual project. This was first experience with creating sort of a game like experience. Since this was an individual project I was responsible for all the parts of the project. I really enjoyed creating this sort of intercative story, though my drawing and designs are not strong for sure, but it was very interesting to challenge myself in this way.",
+      "For this project I drew a stroy board, filled out work sheet about the character's appearance, psichology etc.",
+      "Drew all the reuired sprite sheets and backgrounds using Adobe Illustrator",
+      "Animated the story using HTML, CSS and JS"
+    ],
+
+    "featuredImage": "chad.png",
+    "video": "chad.mp4",
+    "randomFact": "So iam not good at drawing"
   }
 ]

@@ -647,8 +647,8 @@ div.technologies p {
 }
 
 .randomFact {
-  left: 0;
-  top: 78%;
+  left: -1%;
+  top: 95%;
   content: "";
   z-index: -1;
   z-index: 22222;
@@ -659,7 +659,8 @@ div.technologies p {
   width: 10vw;
   height: 20vh;
   animation: flyIn 0.5s ease-in-out forwards 1,
-    changeForm 0.6s 0.3s ease-out forwards 1;
+    changeForm 0.6s 0.4s ease-out forwards 1;
+  background-size: 100% 100%;
   background: linear-gradient(-45deg, #90c9e8, #3886b0, #48ade2);
 }
 
@@ -669,6 +670,13 @@ div.technologies p {
   height: 350px;
   opacity: 0;
   animation: opacityToOne 1s 1s linear forwards;
+
+  align-self: center;
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .randomFact img {
@@ -677,6 +685,7 @@ div.technologies p {
   object-fit: contain;
   align-self: center;
   justify-self: flex-start;
+  object-position: top;
 }
 .randomFact h4 {
   margin: 3%;
