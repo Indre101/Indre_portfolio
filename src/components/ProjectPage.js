@@ -45,14 +45,18 @@ class ProjectPage extends Component {
 
     return (
       <div className={`projectPage ${isProjectPageDisplayed}`}>
-        <div className={`randomFact ${randomFactDisplay}`}>
-          <div className="innerRandomFact">
-            <img
-              src={require("../assets/randomProjectImg/chad.png")}
-              alt="Random"
-            />
-            <h4>Random fact about this projects is</h4>
-            <p>{this.props.activeproject.randomFact}</p>
+        <div
+          className={`randomFactBg ${randomFactDisplay}`}
+          onClick={this.randomIconClicked}>
+          <div className={`randomFact`}>
+            <div className="innerRandomFact">
+              <img
+                src={require("../assets/randomProjectImg/chad.png")}
+                alt="Random"
+              />
+              <h4>Random fact about this projects is</h4>
+              <p>{this.props.activeproject.randomFact}</p>
+            </div>
           </div>
         </div>
         <button
