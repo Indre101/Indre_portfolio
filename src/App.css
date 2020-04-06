@@ -752,6 +752,16 @@ div.technologies p {
   cursor: pointer;
 }
 
+.projectPage[data-id="2"] .longerInfo .innerImg {
+  height: 17vh;
+}
+
+.projectPage[data-id="4"] .longerInfo .innerImg,
+.projectPage[data-id="5"] .longerInfo .innerImg,
+.projectPage[data-id="7"] .longerInfo .innerImg,
+.projectPage[data-id="9"] .longerInfo .innerImg {
+  height: 6vh;
+}
 /*************
 RANDOM FACT CONTAINER
 *************/

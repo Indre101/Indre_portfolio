@@ -24,7 +24,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "escape.png",
     "video": "chad.mp4",
-    "icon": "celine.png",
+    "icon": "escape.png",
 
     "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
   },
@@ -40,7 +40,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
 
     "featuredImage": "poster.png",
-    "icon": "celine.png",
+    "icon": "poster.png",
 
     "video": "chad.mp4",
     "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
@@ -57,7 +57,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "invention.png",
     "video": "chad.mp4",
-    "icon": "celine.png",
+    "icon": "invention.png",
 
     "randomFact": "So iam not good at drawing"
   },
@@ -72,7 +72,7 @@
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "hogwarts.png",
-    "icon": "celine.png",
+    "icon": "hogwarts.png",
 
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
@@ -89,7 +89,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "huset.png",
     "video": "chad.mp4",
-    "icon": "celine.png",
+    "icon": "huset.png",
 
     "randomFact": "So iam not good at drawing"
   },
@@ -104,7 +104,7 @@
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "chad.png",
-    "icon": "celine.png",
+    "icon": "chad.png",
 
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
@@ -112,15 +112,15 @@
   {
     "id": 7,
     "projectName": "Coloring book",
-    "projectLink": "https://indre101.github.io/Adventures_of_chad/",
+    "projectLink": "https://indre101.github.io/coloring-book/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
-    "featuredImage": "huset.png",
-    "icon": "celine.png",
+    "featuredImage": "color.png",
+    "icon": "color.svg",
 
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
@@ -135,8 +135,8 @@
     "projectsGoal": "Create and code an animated story",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
-    "featuredImage": "huset.png",
-    "icon": "celine.png",
+    "featuredImage": "office.png",
+    "icon": "office.png",
 
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
@@ -151,8 +151,8 @@
     "projectsGoal": "Create and code an animated story",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
-    "featuredImage": "huset.png",
-    "icon": "celine.png",
+    "featuredImage": "boot.png",
+    "icon": "boot.png",
 
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"

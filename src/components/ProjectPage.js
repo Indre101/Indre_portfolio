@@ -77,6 +77,7 @@ class ProjectPage extends Component {
 
     return (
       <div
+        data-id={this.props.activeproject.id}
         id={this.props.activeproject.id}
         className={`projectPage ${isProjectPageDisplayed}`}>
         <div
