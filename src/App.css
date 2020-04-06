@@ -533,16 +533,17 @@ footer h4 {
   grid-template-columns: 45vw 55vw;
   grid-area: 1/1 / span 1 / span 2;
 }
+
 .gifContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* transform: translateX(-100vw); */
   grid-area: 1/2;
   height: 96vh;
   margin: 2vh;
   justify-self: flex-end;
-  /* animation: moveFromLeft 1s 2s ease-in 1 forwards; */
+  opacity: 0;
+  animation: opacityToOne 0.3s 1s ease-in-out 1 forwards;
 }
 
 .projectGIF {
@@ -588,7 +589,14 @@ footer h4 {
   width: 100%;
   flex-direction: column;
   justify-content: center;
+  transform: translate(-100vw);
   margin: 0 0 0 4vw;
+  animation: moveFromLeft 0.3s 1.5s ease-in-out forwards 1;
+}
+
+.longerInfo .innerImgContainer {
+  opacity: 0;
+  animation: opacityToOne 0.3s 2s ease-in-out forwards 1;
 }
 
 .longerInfo h2 {
@@ -641,11 +649,18 @@ div.technologies p {
   bottom: 1%;
   left: 2%;
   height: 11vh;
+  transition: filter 0.3s ease-in-out;
+  transform: scaleX(-1);
+  cursor: pointer;
 }
 
 /*************
 RANDOM FACT CONTAINER
 *************/
+
+.innerImg:hover {
+  filter: drop-shadow(1px 1px 1px grey);
+}
 
 .randomFact > * {
   color: white;
