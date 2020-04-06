@@ -265,6 +265,10 @@ PROJECTS PAGE
   background-repeat: no-repeat;
 }
 
+.project:hover .projectCard {
+  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 0 49%, 0 0);
+  filter: grayscale(0);
+}
 .projectsPageContainer h2,
 .aboutMePageContainer h2 {
   grid-area: 1/2 / span 1 / span 1;
@@ -385,8 +389,11 @@ PROJECT CARD
   filter: grayscale(1);
   transition: clip-path 0.1s ease-in-out, filter 0.1s ease-in-out;
 }
-.closeBtn {
+
+.controlButtons {
   grid-area: 1/1;
+}
+.closeBtn {
   background-image: url("./assets/icons/close.svg");
   width: 40px;
   height: 40px;
@@ -404,9 +411,42 @@ PROJECT CARD
   transform: translate(2px, 2px);
 }
 
-.project:hover .projectCard {
-  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 0 49%, 0 0);
-  filter: grayscale(0);
+/****************
+ARROWS
+**********/
+.arrow {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.arrowPrevious {
+  top: 2vh;
+  left: 40vw;
+}
+
+div.arrowPrevious img {
+  transform: rotate(90deg);
+}
+
+div.arrow h5 {
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: gray;
+}
+
+.arrowNext {
+  bottom: 2vh;
+  left: 40vw;
+}
+
+.arrowNext img {
+  transform: rotate(-90deg);
 }
 
 /* ABOUT ME */
@@ -634,6 +674,11 @@ div.technologies {
   border-bottom: 1px solid grey;
   color: black;
   width: 70vw;
+}
+
+.technologies b {
+  font-weight: bold;
+  color: black;
 }
 
 div.technologies p {

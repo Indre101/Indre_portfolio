@@ -90,13 +90,24 @@ class ProjectPage extends Component {
             </div>
           </div>
         </div>
-        <button
-          className="closeBtn"
-          onClick={() => {
-            this.props.toggleProjectPage();
-          }}></button>
+        <div className="controlButtons">
+          <button
+            className="closeBtn"
+            onClick={() => {
+              this.props.toggleProjectPage();
+            }}></button>
+        </div>
+
         <div className="projectInformation">
           <div className="longerInfo">
+            <div className="arrow arrowPrevious">
+              <img src={require("../assets/icons/left-arrow.svg")} alt="" />
+              <h5>previous</h5>
+            </div>
+            <div className="arrow arrowNext">
+              <h5>next</h5>
+              <img src={require("../assets/icons/left-arrow.svg")} alt="" />
+            </div>
             <a
               href={`${this.props.activeproject.projectLink}`}
               rel="noopener noreferrer"
