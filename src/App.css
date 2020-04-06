@@ -381,7 +381,7 @@ PROJECT CARD
   grid-area: 1/1 / span 2 / span 1;
   height: inherit;
   width: inherit;
-  background-image: url("./assets/featured-img/chad.png");
+  /* background-image: url("./assets/featured-img/chad.png"); */
   background-size: cover;
   clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 76% 100%, 48% 51%, 76% 0);
 

@@ -3,7 +3,9 @@ import "../App.css";
 
 class ProjectCard extends Component {
   render() {
-    console.log();
+    const imageUrl = require(`../assets/featured-img/${this.props.project.featuredImage}`);
+
+    console.log(this.props.project.featuredImage);
     return (
       <a href={`#${this.props.project.id}`}>
         <article
@@ -13,7 +15,11 @@ class ProjectCard extends Component {
             <h3>{this.props.project.projectName}</h3>
             <h4>{this.props.project.typeOfProject}</h4>
           </div>
-          <div className="projectCard"></div>
+          <div
+            className="projectCard"
+            style={{
+              backgroundImage: `url(${imageUrl})`,
+            }}></div>
         </article>
       </a>
     );
