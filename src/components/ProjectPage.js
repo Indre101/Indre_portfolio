@@ -41,12 +41,12 @@ class ProjectPage extends Component {
     const playdButtonDisplay = this.state.isPlaying ? "d-none" : "d-block";
     const randomFactDisplay = this.state.isDisplayingRandomfact
       ? "d-flex"
-      : "d-none";
+      : "slideLeft";
 
     return (
       <div className={`projectPage ${isProjectPageDisplayed}`}>
         <div
-          className={`randomFactBg ${randomFactDisplay}`}
+          className={`randomFactBg  ${randomFactDisplay}`}
           onClick={this.randomIconClicked}>
           <div className={`randomFact`}>
             <div className="innerRandomFact">
