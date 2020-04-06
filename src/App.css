@@ -363,21 +363,22 @@ PROJECT CARD
 }
 
 .projectShortInfo h3 {
-  align-self: center;
-  margin-left: -8vw;
+  align-self: flex-start;
   color: white;
   font-size: 1.9vh;
-  width: 66%;
-  text-align: end;
+  text-align: left;
+  width: 62%;
+  margin: 1vh 0 0 2vh;
 }
 
 .projectShortInfo h4 {
+  font-style: italic;
+  text-align: left;
   align-self: center;
   margin: 1vh 0 1vh -5vw;
   font-size: 1.5vh;
-  color: #5a5a5a99;
-  width: 40%;
-  text-align: right;
+  color: #ffffff;
+  width: 66%;
 }
 
 .projectCard {

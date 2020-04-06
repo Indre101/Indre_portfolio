@@ -60,6 +60,7 @@ class ProjectPage extends Component {
   }
 
   render() {
+    console.log(this.props.activeproject);
     const isProjectPageDisplayed = this.props.isProjectPageDisplayed
       ? "d-grid"
       : "d-none";
@@ -144,7 +145,7 @@ class ProjectPage extends Component {
               onClick={() => this.handleClickRandomIcon()}>
               <img
                 className="innerImg"
-                src={require(`../assets/projectIcons/${this.props.activeproject.featuredImage}`)}
+                src={require(`../assets/projectIcons/${this.props.activeproject.icon}`)}
                 alt="Chad"
               />
             </div>

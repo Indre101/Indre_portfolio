@@ -5,7 +5,6 @@ class ProjectCard extends Component {
   render() {
     const imageUrl = require(`../assets/featured-img/${this.props.project.featuredImage}`);
 
-    console.log(this.props.project.featuredImage);
     return (
       <a href={`#${this.props.project.id}`}>
         <article
