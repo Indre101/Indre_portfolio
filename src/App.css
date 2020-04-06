@@ -642,18 +642,39 @@ div.technologies p {
   left: 2%;
   height: 11vh;
 }
+
+/*************
+RANDOM FACT CONTAINER
+*************/
+
 .randomFact > * {
   color: white;
 }
 
-.randomFactBg.d-flex {
-  /* animation: moveFromLeft 0.1s linear forwards 1; */
+.randomFactBg {
+  background-color: #161619a3;
+}
+.randomFactBg[data-visible="false"] {
+  pointer-events: none;
+  display: none;
 }
 
-.randomFactBg.d-flex .randomFact {
+.randomFactBg[data-visible="true"] {
+  opacity: 0;
+  pointer-events: auto;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: 222222;
+  position: fixed;
+  border: 1px solid black;
+  animation: opacityToOne 0.2s linear forwards;
+}
+
+.randomFactBg .randomFact {
   clip-path: polygon(47% 0, 100% 100%, 49% 68%, 47% 5%, 45% 68%, 0 100%);
-  animation: flyIn 1s ease-in-out forwards 1,
-    changeForm 0.6s 0.4s ease-out forwards 1;
+  animation: flyIn 0.4s 0.1s ease-in-out forwards 1,
+    changeForm 0.3s 0.4s ease-out forwards 1;
 }
 .randomFact {
   display: flex;
@@ -688,19 +709,6 @@ div.technologies p {
   }
 }
 
-.randomFactBg {
-  width: 100%;
-  height: 100%;
-  z-index: 222222;
-  position: fixed;
-  /* transform: translate(-100vw); */
-}
-
-.randomFactBg.slideLeft {
-  border: 1px solid black;
-  /* animation: moveTotheRight 1s 3s linear forwards 1; */
-}
-
 @keyframes moveTotheRight {
   0% {
     transform: translate(0);
@@ -710,7 +718,21 @@ div.technologies p {
   }
 }
 
-.randomFactBg.slideLeft .randomFact {
+.innerImgContainer[data-active="false"] {
+  pointer-events: auto;
+}
+
+.innerImgContainer[data-active="true"] {
+  pointer-events: none;
+}
+
+.randomFactBg[data-endanimation="true"] {
+  opacity: 1;
+  animation: opacityToZero 0.2s 1.1s linear forwards 1;
+  pointer-events: none;
+}
+
+.randomFactBg[data-endanimation="true"] .randomFact {
   display: flex;
   left: 50%;
   top: 50%;
@@ -719,7 +741,7 @@ div.technologies p {
   height: 60vh;
   clip-path: polygon(47% 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
   animation: changeFormBack 0.5s linear forwards 1,
-    flyOut 0.5s 0.3s linear forwards 1;
+    flyOut 0.2s 0.6s ease-in forwards 1;
 }
 
 @keyframes flyOut {
@@ -740,50 +762,22 @@ div.technologies p {
     clip-path: polygon(47% 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
   }
   20% {
-    width: 400px;
-    height: 60vh;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
     clip-path: polygon(47% 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
   }
   40% {
-    width: 400px;
-    height: 60vh;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
     clip-path: polygon(47% 0, 100% 0, 100% 100%, 50% 100%, 35% 100%, 0 100%);
   }
   60% {
-    width: 400px;
-    height: 60vh;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
     clip-path: polygon(47% 0, 100% 100%, 60% 100%, 50% 100%, 35% 100%, 0 100%);
   }
   80% {
-    width: 400px;
-    height: 60vh;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
     clip-path: polygon(47% 0, 100% 100%, 51% 100%, 47% 5%, 46% 100%, 0 100%);
   }
   90% {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
-    width: 10vw;
-    height: 20vh;
     clip-path: polygon(47% 0, 100% 100%, 51% 100%, 47% 5%, 45% 68%, 0 100%);
   }
 
   100% {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
     width: 10vw;
     height: 20vh;
     clip-path: polygon(47% 0, 100% 100%, 49% 68%, 47% 5%, 45% 68%, 0 100%);
@@ -911,6 +905,16 @@ Animations
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes opacityToZero {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 

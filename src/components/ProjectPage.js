@@ -8,10 +8,12 @@ class ProjectPage extends Component {
       isPlaying: false,
       hasRandomImg: false,
       isDisplayingRandomfact: false,
+      isRandomIconClicked: false,
     };
 
     this.handleVideoClick = this.handleVideoClick.bind(this);
-    this.randomIconClicked = this.randomIconClicked.bind(this);
+    this.toggleRandomFactDisplay = this.toggleRandomFactDisplay.bind(this);
+    this.handleClickRandomIcon = this.handleClickRandomIcon.bind(this);
   }
 
   handleVideoClick() {
@@ -27,10 +29,37 @@ class ProjectPage extends Component {
     this.setState({ isPlaying: !this.state.isPlaying });
   }
 
-  randomIconClicked() {
+  toggleRandomFactDisplay() {
     this.setState({
       isDisplayingRandomfact: !this.state.isDisplayingRandomfact,
     });
+  }
+
+  handleClickRandomIcon() {
+    if (this.state.isRandomIconClicked) {
+      this.setState({
+        isDisplayingRandomfact: true,
+      });
+      console.log("true");
+      setTimeout(() => {
+        this.setState((prevState) => {
+          return {
+            isRandomIconClicked: prevState.isRandomIconClicked ? false : true,
+          };
+        });
+      }, 1000);
+    } else {
+      console.log("false");
+      this.setState({
+        isDisplayingRandomfact: false,
+      });
+
+      this.setState((prevState) => {
+        return {
+          isRandomIconClicked: prevState.isRandomIconClicked ? false : true,
+        };
+      });
+    }
   }
 
   render() {
@@ -39,15 +68,17 @@ class ProjectPage extends Component {
       : "d-none";
 
     const playdButtonDisplay = this.state.isPlaying ? "d-none" : "d-block";
-    const randomFactDisplay = this.state.isDisplayingRandomfact
-      ? "d-flex"
-      : "slideLeft";
+    // const randomFactDisplay = this.state.isRandomIconClicked
+    //   ? "d-flex"
+    //   : "slideLeft";
 
     return (
       <div className={`projectPage ${isProjectPageDisplayed}`}>
         <div
-          className={`randomFactBg  ${randomFactDisplay}`}
-          onClick={this.randomIconClicked}>
+          className={`randomFactBg `}
+          data-visible={`${this.state.isRandomIconClicked}`}
+          data-endanimation={`${this.state.isDisplayingRandomfact}`}
+          onClick={this.handleClickRandomIcon}>
           <div className={`randomFact`}>
             <div className="innerRandomFact">
               <img
@@ -85,7 +116,10 @@ class ProjectPage extends Component {
                 {this.props.activeproject.tools}
               </p>
             </div>
-            <div onClick={() => this.randomIconClicked()}>
+            <div
+              className="innerImgContainer"
+              data-active={`${this.state.isRandomIconClicked}`}
+              onClick={() => this.handleClickRandomIcon()}>
               <img
                 className="innerImg"
                 src={require(`../assets/projectIcons/${this.props.activeproject.featuredImage}`)}
