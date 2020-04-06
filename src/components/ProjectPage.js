@@ -17,7 +17,6 @@ class ProjectPage extends Component {
   }
 
   handleVideoClick() {
-    console.log(this.props.activeproject);
     if (this.state.isPlaying) {
       this.video.style.setProperty("--grayScale", 1);
 
@@ -40,7 +39,6 @@ class ProjectPage extends Component {
       this.setState({
         isDisplayingRandomfact: true,
       });
-      console.log("true");
       setTimeout(() => {
         this.setState((prevState) => {
           return {
@@ -49,7 +47,6 @@ class ProjectPage extends Component {
         });
       }, 1000);
     } else {
-      console.log("false");
       this.setState({
         isDisplayingRandomfact: false,
       });
