@@ -108,7 +108,7 @@ class ProjectPage extends Component {
                   src={require("../assets/icons/left-arrow-grey.svg")}
                   alt=""
                 />
-                <h5>previous</h5>
+                <h5>prev</h5>
               </div>
             </a>
             <a href={`#${this.props.activeproject.id + 1}`}>
