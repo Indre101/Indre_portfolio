@@ -102,20 +102,24 @@ class ProjectPage extends Component {
 
         <div className="projectInformation">
           <div className="longerInfo">
-            <div className="arrow arrowPrevious">
-              <img
-                src={require("../assets/icons/left-arrow-grey.svg")}
-                alt=""
-              />
-              <h5>previous</h5>
-            </div>
-            <div className="arrow arrowNext">
-              <h5>next</h5>
-              <img
-                src={require("../assets/icons/left-arrow-grey.svg")}
-                alt=""
-              />
-            </div>
+            <a href={`#${this.props.activeproject.id - 1}`}>
+              <div className="arrow arrowPrevious">
+                <img
+                  src={require("../assets/icons/left-arrow-grey.svg")}
+                  alt=""
+                />
+                <h5>previous</h5>
+              </div>
+            </a>
+            <a href={`#${this.props.activeproject.id + 1}`}>
+              <div className="arrow arrowNext">
+                <h5>next</h5>
+                <img
+                  src={require("../assets/icons/left-arrow-grey.svg")}
+                  alt=""
+                />
+              </div>
+            </a>
             <a
               href={`${this.props.activeproject.projectLink}`}
               rel="noopener noreferrer"
