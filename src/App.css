@@ -576,13 +576,20 @@ footer h4 {
 
 .projectPageList {
   height: 100vh;
-  overflow: scroll;
+  overflow-y: hidden;
   position: fixed;
   top: 0;
   z-index: 1111;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+[data-firstarrow="true"] {
+  display: none;
 }
 
 .projectPage {
+  scroll-snap-align: start;
   min-height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 10% auto;

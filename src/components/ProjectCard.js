@@ -8,9 +8,7 @@ class ProjectCard extends Component {
       <a href={`#${this.props.project.id}`}>
         <article
           className="project"
-          onClick={() =>
-            this.props.handleClickedProjectCard(this.props.project.id)
-          }>
+          onClick={() => this.props.toggleProjectPage()}>
           <div className="projectShortInfo">
             <h3>{this.props.project.projectName}</h3>
             <h4>{this.props.project.typeOfProject}</h4>

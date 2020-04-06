@@ -14,12 +14,10 @@ class App extends Component {
       menuDisplayProperty: "none",
       isProjectPageDisplayed: false,
       projects: [],
-      activeproject: {},
     };
 
     this.toggleMenu = this.toggleMenu.bind(this);
     this.toggleProjectPage = this.toggleProjectPage.bind(this);
-    this.handleClickedProjectCard = this.handleClickedProjectCard.bind(this);
   }
 
   toggleMenu() {
@@ -47,13 +45,6 @@ class App extends Component {
     });
   }
 
-  handleClickedProjectCard(id) {
-    this.toggleProjectPage();
-    this.state.projects.filter((project) =>
-      project.id === id ? this.setState({ activeproject: project }) : false
-    );
-  }
-
   render() {
     const displayProjectPage = this.state.isProjectPageDisplayed
       ? this.state.projects.map((project) => (
@@ -62,6 +53,7 @@ class App extends Component {
             isProjectPageDisplayed={this.state.isProjectPageDisplayed}
             toggleProjectPage={this.toggleProjectPage}
             activeproject={project}
+            projectListLength={this.state.projects.length}
           />
         ))
       : null;
@@ -80,7 +72,7 @@ class App extends Component {
 
         <ProjectsPage
           projects={this.state.projects}
-          handleClickedProjectCard={this.handleClickedProjectCard}
+          toggleProjectPage={this.toggleProjectPage}
         />
         <div className="projectPageList">{displayProjectPage}</div>
 

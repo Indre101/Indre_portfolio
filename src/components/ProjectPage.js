@@ -71,6 +71,11 @@ class ProjectPage extends Component {
     // const randomFactDisplay = this.state.isRandomIconClicked
     //   ? "d-flex"
     //   : "slideLeft";
+    const firstArrowDisplay = this.props.activeproject.id === 0 ? true : false;
+    const LastArrowDisplay =
+      this.props.activeproject.id === this.props.projectListLength - 1
+        ? true
+        : false;
 
     return (
       <div
@@ -103,7 +108,9 @@ class ProjectPage extends Component {
         <div className="projectInformation">
           <div className="longerInfo">
             <a href={`#${this.props.activeproject.id - 1}`}>
-              <div className="arrow arrowPrevious">
+              <div
+                className="arrow arrowPrevious"
+                data-firstarrow={firstArrowDisplay}>
                 <img
                   src={require("../assets/icons/left-arrow-grey.svg")}
                   alt=""
@@ -112,7 +119,9 @@ class ProjectPage extends Component {
               </div>
             </a>
             <a href={`#${this.props.activeproject.id + 1}`}>
-              <div className="arrow arrowNext">
+              <div
+                className="arrow arrowNext"
+                data-firstarrow={LastArrowDisplay}>
                 <h5>next</h5>
                 <img
                   src={require("../assets/icons/left-arrow-grey.svg")}

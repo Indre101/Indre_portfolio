@@ -5,11 +5,11 @@ import "../App.css";
 class ProjectsPage extends Component {
   render() {
     const { projects } = this.props;
-    const projectList = projects.map(project => (
+    const projectList = projects.map((project) => (
       <ProjectCard
         key={project.id}
         project={project}
-        handleClickedProjectCard={this.props.handleClickedProjectCard}
+        toggleProjectPage={this.props.toggleProjectPage}
       />
     ));
     return (
