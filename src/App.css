@@ -654,6 +654,10 @@ footer h4 {
   background-size: 800% 800%;
 }
 
+.gifContainer:hover .projectGIF {
+  filter: grayscale(0.5);
+}
+
 @keyframes AnimationName {
   0% {
     background-position: 0% 18%;
@@ -666,12 +670,16 @@ footer h4 {
   }
 }
 .projectGIF {
-  --grayScale: 1;
-  filter: grayscale(var(--grayScale));
+  filter: grayscale(1);
   object-fit: contain;
+  transition: filter 0.1s ease-in;
   object-position: center;
   width: 95%;
   height: 100%;
+}
+
+.gifContainer .projectGIF[data-clicked="true"] {
+  filter: grayscale(0);
 }
 
 .gifBtn {

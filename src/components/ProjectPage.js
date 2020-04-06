@@ -18,12 +18,12 @@ class ProjectPage extends Component {
 
   handleVideoClick() {
     if (this.state.isPlaying) {
-      this.video.style.setProperty("--grayScale", 1);
+      this.video.dataset.clicked = "false";
 
       this.video.pause();
     } else {
       this.video.play();
-      this.video.style.setProperty("--grayScale", 0);
+      this.video.dataset.clicked = "true";
     }
     this.setState({ isPlaying: !this.state.isPlaying });
   }
