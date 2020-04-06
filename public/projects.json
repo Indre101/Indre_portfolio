@@ -1,85 +1,56 @@
 [
   {
     "id": 0,
-    "projectName": "Adventures of Chad",
-    "projectLink": "https://indre101.github.io/Adventures_of_chad/",
-    "typeOfProject": "Animation/Game",
-    "individualOrGroup": "Individual",
-    "myResponsibilities": ["Character design", "story developer", "coding"],
-    "projectsGoal": "Create and code an animated story",
+    "projectName": "Celine Marie portfolio",
+    "projectLink": "https://indre101.github.io/celine-marie/",
+    "typeOfProject": "Website",
+    "individualOrGroup": "Group",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "aboutTheProject": "This project was heavily focused on the animation and developing a story and character in a certain style, that was chosen",
-    "factsAboutTheProject": [
-      "This project was an individual project. This was first experience with creating sort of a game like experience. Since this was an individual project I was responsible for all the parts of the project. I really enjoyed creating this sort of intercative story, though my drawing and designs are not strong for sure, but it was very interesting to challenge myself in this way.",
-      "For this project I drew a stroy board, filled out work sheet about the character's appearance, psichology etc.",
-      "Drew all the reuired sprite sheets and backgrounds using Adobe Illustrator",
-      "Animated the story using HTML, CSS and JS"
-    ],
-
-    "featuredImage": "chad.png",
-    "video": "chad.mp4",
+    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "featuredImage": "celine.png",
+    "video": "celine.mp4",
     "randomFact": "So iam not good at drawing"
   },
   {
     "id": 1,
-    "projectName": "Celine marie",
-    "projectLink": "https://indre101.github.io/Adventures_of_chad/",
+    "projectName": "Escape the Influencer",
+    "projectLink": "https://indre101.github.io/Door_game/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "aboutTheProject": "This project was heavily focused on the animation and developing a story and character in a certain style, that was chosen",
-    "factsAboutTheProject": [
-      "This project was an individual project. This was first experience with creating sort of a game like experience. Since this was an individual project I was responsible for all the parts of the project. I really enjoyed creating this sort of intercative story, though my drawing and designs are not strong for sure, but it was very interesting to challenge myself in this way.",
-      "For this project I drew a stroy board, filled out work sheet about the character's appearance, psichology etc.",
-      "Drew all the reuired sprite sheets and backgrounds using Adobe Illustrator",
-      "Animated the story using HTML, CSS and JS"
-    ],
-
-    "featuredImage": "celine.png",
-    "video": "celine.mp4",
+    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "featuredImage": "escape.png",
+    "video": "chad.mp4",
     "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
   },
   {
     "id": 2,
-    "projectName": "Adventures of Chad",
-    "projectLink": "https://indre101.github.io/Adventures_of_chad/",
+    "projectName": "Interactive movie poster",
+    "projectLink": "https://indre101.github.io/Interactive_movie_poster/firstScene.html",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "aboutTheProject": "This project was heavily focused on the animation and developing a story and character in a certain style, that was chosen",
-    "factsAboutTheProject": [
-      "This project was an individual project. This was first experience with creating sort of a game like experience. Since this was an individual project I was responsible for all the parts of the project. I really enjoyed creating this sort of intercative story, though my drawing and designs are not strong for sure, but it was very interesting to challenge myself in this way.",
-      "For this project I drew a stroy board, filled out work sheet about the character's appearance, psichology etc.",
-      "Drew all the reuired sprite sheets and backgrounds using Adobe Illustrator",
-      "Animated the story using HTML, CSS and JS"
-    ],
+    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
 
-    "featuredImage": "chad.png",
+    "featuredImage": "poster.png",
     "video": "chad.mp4",
     "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
   },
   {
     "id": 3,
-    "projectName": "Celine marie",
+    "projectName": "Light bulb",
     "projectLink": "https://indre101.github.io/Adventures_of_chad/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "aboutTheProject": "This project was heavily focused on the animation and developing a story and character in a certain style, that was chosen",
-    "factsAboutTheProject": [
-      "This project was an individual project. This was first experience with creating sort of a game like experience. Since this was an individual project I was responsible for all the parts of the project. I really enjoyed creating this sort of intercative story, though my drawing and designs are not strong for sure, but it was very interesting to challenge myself in this way.",
-      "For this project I drew a stroy board, filled out work sheet about the character's appearance, psichology etc.",
-      "Drew all the reuired sprite sheets and backgrounds using Adobe Illustrator",
-      "Animated the story using HTML, CSS and JS"
-    ],
-
-    "featuredImage": "chad.png",
+    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "featuredImage": "invention.png",
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
   }
