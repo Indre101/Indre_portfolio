@@ -348,6 +348,7 @@ PROJECT CARD
   /* background-color: #ccc; */
   /* background: linear-gradient(-45deg, #90c9e8, #48ade2, #3886b0); */
   background: linear-gradient(-45deg, #90c9e8, #3886b0, #48ade2);
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-size: 200% 200%;
@@ -565,6 +566,9 @@ footer h4 {
 
 .controlButtons {
   position: fixed;
+  opacity: 0;
+  animation: opacityToOne 0.3s 1.5s linear forwards 1;
+
   z-index: 111;
 }
 
@@ -643,13 +647,28 @@ footer h4 {
   margin: 2vh;
   justify-self: flex-end;
   opacity: 0;
-  animation: opacityToOne 0.3s 1s ease-in-out 1 forwards;
+  animation: opacityToOne 0.3s 1s ease-in-out 1 forwards,
+    AnimationName 30s ease infinite;
+  cursor: pointer;
+  background: linear-gradient(333deg, #0b0b0b, #f9f9f9, #f9f9f9, #5a5958);
+  background-size: 800% 800%;
 }
 
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 18%;
+  }
+  50% {
+    background-position: 100% 83%;
+  }
+  100% {
+    background-position: 0% 18%;
+  }
+}
 .projectGIF {
   --grayScale: 1;
   filter: grayscale(var(--grayScale));
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   width: 95%;
   height: 100%;
@@ -722,6 +741,7 @@ footer h4 {
 }
 
 .longerInfo p {
+  width: 35vw;
   margin: 3vh;
   padding-left: 2vh;
   color: #636161;
