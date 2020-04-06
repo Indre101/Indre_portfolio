@@ -390,27 +390,6 @@ PROJECT CARD
   transition: clip-path 0.1s ease-in-out, filter 0.1s ease-in-out;
 }
 
-.controlButtons {
-  grid-area: 1/1;
-}
-.closeBtn {
-  background-image: url("./assets/icons/close.svg");
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  margin: 2vh;
-  border: none;
-  background-color: transparent;
-  transition: 0.1s filter linear, transform 0.2s linear;
-  cursor: pointer;
-  z-index: 100;
-}
-
-.closeBtn:hover {
-  filter: drop-shadow(1px 1px 2px grey);
-  transform: translate(2px, 2px);
-}
-
 /****************
 ARROWS
 **********/
@@ -582,6 +561,36 @@ footer h4 {
   z-index: 1111;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+}
+
+.controlButtons {
+  position: fixed;
+  z-index: 111;
+}
+
+.closeBtn {
+  background-image: url("./assets/icons/close.svg");
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  margin: 2vh;
+  border: none;
+  background-color: transparent;
+  transition: 0.1s filter linear, transform 0.2s linear;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  filter: drop-shadow(1px 1px 2px grey);
+  transform: translate(2px, 2px);
+}
+
+.projectPageList[data-visible="true"] {
+  display: block;
+}
+
+.projectPageList[data-visible="false"] {
+  display: none;
 }
 
 [data-firstarrow="true"] {

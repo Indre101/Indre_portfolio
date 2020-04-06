@@ -97,13 +97,6 @@ class ProjectPage extends Component {
             </div>
           </div>
         </div>
-        <div className="controlButtons">
-          <button
-            className="closeBtn"
-            onClick={() => {
-              this.props.toggleProjectPage();
-            }}></button>
-        </div>
 
         <div className="projectInformation">
           <div className="longerInfo">

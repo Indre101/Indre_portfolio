@@ -3,6 +3,7 @@ import FirstPage from "./components/FirstPage";
 import MenuPopUp from "./components/MenuPopUp";
 import ProjectPage from "./components/ProjectPage";
 import ProjectsPage from "./components/ProjectsPage";
+import CloseProjectBtn from "./components/CloseProjectBtn";
 import "./App.css";
 
 class App extends Component {
@@ -58,6 +59,9 @@ class App extends Component {
         ))
       : null;
 
+    const projectPageListDisplay = this.state.isProjectPageDisplayed
+      ? true
+      : false;
     return (
       <div>
         <FirstPage
@@ -74,7 +78,11 @@ class App extends Component {
           projects={this.state.projects}
           toggleProjectPage={this.toggleProjectPage}
         />
-        <div className="projectPageList">{displayProjectPage}</div>
+        <div className="projectPageList" data-visible={projectPageListDisplay}>
+          <CloseProjectBtn toggleProjectPage={this.toggleProjectPage} />
+
+          {displayProjectPage}
+        </div>
 
         <section id="AboutMe" className="pageSection aboutMePageContainer">
           <h2>About me</h2>
