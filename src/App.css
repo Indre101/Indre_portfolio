@@ -574,13 +574,21 @@ footer h4 {
  Project page 
  ******************/
 
+.projectPageList {
+  height: 100vh;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  z-index: 1111;
+}
+
 .projectPage {
   min-height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 10% auto;
   z-index: 1000;
   background-color: white;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   color: white;
   clip-path: polygon(96% 0, 100% 0%, 5% 100%, 0 100%);

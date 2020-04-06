@@ -73,7 +73,9 @@ class ProjectPage extends Component {
     //   : "slideLeft";
 
     return (
-      <div className={`projectPage ${isProjectPageDisplayed}`}>
+      <div
+        id={this.props.activeproject.id}
+        className={`projectPage ${isProjectPageDisplayed}`}>
         <div
           className={`randomFactBg `}
           data-visible={`${this.state.isRandomIconClicked}`}

@@ -55,14 +55,16 @@ class App extends Component {
   }
 
   render() {
-    const displayProjectPage = this.state.isProjectPageDisplayed ? (
-      <ProjectPage
-        key="600"
-        isProjectPageDisplayed={this.state.isProjectPageDisplayed}
-        toggleProjectPage={this.toggleProjectPage}
-        activeproject={this.state.activeproject}
-      />
-    ) : null;
+    const displayProjectPage = this.state.isProjectPageDisplayed
+      ? this.state.projects.map((project) => (
+          <ProjectPage
+            key={project.id}
+            isProjectPageDisplayed={this.state.isProjectPageDisplayed}
+            toggleProjectPage={this.toggleProjectPage}
+            activeproject={project}
+          />
+        ))
+      : null;
 
     return (
       <div>
@@ -80,8 +82,8 @@ class App extends Component {
           projects={this.state.projects}
           handleClickedProjectCard={this.handleClickedProjectCard}
         />
+        <div className="projectPageList">{displayProjectPage}</div>
 
-        {displayProjectPage}
         <section id="AboutMe" className="pageSection aboutMePageContainer">
           <h2>About me</h2>
 
