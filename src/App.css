@@ -919,7 +919,7 @@ RANDOM FACT CONTAINER
 
 .innerRandomFact {
   opacity: 0;
-  animation: opacityToOne 1s 1s linear forwards;
+  animation: opacityToOne 1s 0.8s ease-in-out forwards;
   display: flex;
   /* flex-direction: column; */
   align-items: center;
@@ -1048,10 +1048,6 @@ Animations
 }
 
 @keyframes opacityToOne {
-  0% {
-    opacity: 0.5;
-  }
-
   100% {
     opacity: 1;
   }
