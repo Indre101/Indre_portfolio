@@ -103,17 +103,14 @@
     "projectLink": "https://indre101.github.io/Adventures_of_chad/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
-    "myResponsibilities": ["Character design", "story developer", "coding"],
-    "projectsGoal": "Create and code an animated story",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "tools": "JS, HTML, CSS, Adobe Illustrator",
     "featuredImage": "chad.png",
     "icon": "chad.png",
-    "randomFactImg": "celine.png",
+    "randomFactImg": "chad.png",
     "randomlink": false,
-
-    "video": "chad.mp4",
-    "randomFact": "So iam not good at drawing"
+    "randomFact": "So I am notoriously bad at drawing, and one of the things that needed to be done was to draw a worksheet of a character. This is Chad from the left, right, front and back.",
+    "factsAboutTheProject": "The project is sort of like a mini interactive experience that follows Chad, who is a creature that encounters very human choices. The solution was one of the first experiences with using sprite animation. All the illustrations for the sprite sheets were drawn with Adobe Illustrator and animations coded with CSS animation using steps.",
+    "video": "chad.mp4"
   },
 
   {
