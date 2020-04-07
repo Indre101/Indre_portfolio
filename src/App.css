@@ -958,6 +958,13 @@ RANDOM FACT CONTAINER
   height: 28vh;
 }
 
+.projectPage[data-id="4"] .randomFact img {
+  height: 20vh;
+}
+
+.projectPage[data-id="5"] .randomFact img {
+  height: 42vh;
+}
 .randomFact h4 {
   margin: 8% 0;
   font-size: 1.5vw;

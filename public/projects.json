@@ -69,34 +69,33 @@
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "tools": "JS, HTML, CSS, CSS animations",
+    "factsAboutTheProject": "The project's premise was that we’re Hogwarts school admins, and are responsible for creating  a student list from fetched data and implementing different functionalities, one of them was hacking the system. This project was mostly focused on working with arrays and objects, and creating a user experience, by giving feedback for users actions. ",
     "featuredImage": "hogwarts.png",
     "icon": "hogwarts.png",
     "randomlink": false,
 
     "video": "hogwarts.mp4",
-    "randomFactImg": "celine.png",
+    "randomFactImg": "hogwarts.png",
 
-    "randomFact": "So iam not good at drawing"
+    "randomFact": "User testing showed that, everyone thought the most exciting part was expelling students."
   },
   {
     "id": 5,
     "projectName": "Huset volunteer",
     "projectLink": "https://indre101.github.io/huset/",
     "typeOfProject": "Animation/Game",
-    "individualOrGroup": "Individual",
+    "individualOrGroup": "Group/Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "tools": "JS, HTML, CSS, WP plugin Pods, Databases",
+    "factsAboutTheProject": "The project was sort of a group project, since we were supposed to select each a different persona, and create a database that would serve all of our application needs. The created web app was meant to target one of personas of the Huset target audience and meant only for mobile use. The persona for this project was a volunteer and the style of the web app follows Huset’s style guide. My main objective here was to create a possibility to filter through events and create the volunteers calendar, so the volunteer could log in and check the working days. This project also required a database, which was created using WP plugin.( Log in olivia, huset1)",
     "featuredImage": "huset.png",
     "video": "huset.mp4",
     "icon": "huset.png",
-    "randomFactImg": "celine.png",
+    "randomFactImg": "huset.png",
     "randomlink": false,
-
-    "randomFact": "So iam not good at drawing"
+    "randomFact": "Volunteer, international student, Danish hipster and event organiser these were the personas that this database was created and meant to have all the required data for all the web apps."
   },
   {
     "id": 6,
