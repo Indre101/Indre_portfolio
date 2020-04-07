@@ -23,7 +23,7 @@
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "escape.png",
-    "video": "chad.mp4",
+    "video": "escape.mp4",
     "icon": "escape.png",
 
     "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
@@ -42,7 +42,7 @@
     "featuredImage": "poster.png",
     "icon": "poster.png",
 
-    "video": "chad.mp4",
+    "video": "poster.mp4",
     "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
   },
   {
@@ -56,7 +56,7 @@
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "invention.png",
-    "video": "chad.mp4",
+    "video": "invention.mp4",
     "icon": "invention.png",
 
     "randomFact": "So iam not good at drawing"
@@ -74,7 +74,7 @@
     "featuredImage": "hogwarts.png",
     "icon": "hogwarts.png",
 
-    "video": "chad.mp4",
+    "video": "hogwarts.mp4",
     "randomFact": "So iam not good at drawing"
   },
   {
