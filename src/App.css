@@ -957,7 +957,7 @@ RANDOM FACT CONTAINER
 .projectPage[data-id="2"] .randomFact img {
   height: 28vh;
 }
-
+.projectPage[data-id="7"] .randomFact img,
 .projectPage[data-id="4"] .randomFact img {
   height: 20vh;
 }
@@ -970,14 +970,19 @@ RANDOM FACT CONTAINER
   height: 21vh;
 }
 
+.projectPage[data-id="8"] .randomFact img {
+  width: 60vw;
+  height: auto;
+}
+
 .randomFact h4 {
   margin: 8% 0;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 
 .randomFact p {
-  font-size: 1.3vw;
-  line-height: 2.2vh;
+  font-size: 1.1vw;
+  line-height: 3vh;
 }
 
 a.randomLink img {

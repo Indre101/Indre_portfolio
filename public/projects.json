@@ -12,7 +12,7 @@
     "video": "celine.mp4",
     "randomFactImg": "celine.png",
     "randomlink": false,
-    "randomFact": "This scheme provides an overview of the database structure that was created for this website, in order to be able to fecth the data in the project."
+    "randomFact": "This is an image of the database structure that was created for this project."
   },
   {
     "id": 1,
@@ -121,32 +121,32 @@
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "tools": "JS, HTML, CSS",
+    "factsAboutTheProject": "This was a very small project, it's main goal was to work with, scroll behavior and Intersection Observer API. The theme of the website could have been about anything, so I chose my favourite tv Series The Office(the US version). There is also a small feature, that some of the best quotes of the show are being fetched from a JSON file and being displayed.",
     "featuredImage": "office.png",
     "icon": "office.png",
-    "randomFactImg": "celine.png",
+    "randomFactImg": "office.gif",
     "randomlink": false,
 
     "video": "office.mp4",
-    "randomFact": "So iam not good at drawing"
+    "randomFact": "One of my favorite qoutes from The Office is “And I knew exactly what to do. But in a much more real sense, I had no idea what to do.” "
   },
   {
     "id": 8,
-    "projectName": "First bootsrap page",
+    "projectName": "Bootstrap page template",
     "projectLink": "https://indre101.github.io/bootstrap/bootstrap_web_01/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
     "projectsGoal": "Create and code an animated story",
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "factsAboutTheProject": "I wanted to learn bootstrap, so after watching quite a few tutorials, I decided to try and recreate one of the possible bootstrap template pages at the time, since the best way of learning is definitely hands on practise especially when it comes to coding.",
     "featuredImage": "boot.png",
     "icon": "boot.png",
-    "randomFactImg": "celine.png",
+    "randomFactImg": "boot.gif",
     "randomlink": false,
 
     "video": "boot.mp4",
-    "randomFact": "So iam not good at drawing"
+    "randomFact": "I did this project quite some time ago, so I'd rather just offer you an image of a cat."
   }
 ]
