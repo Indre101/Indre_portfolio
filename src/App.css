@@ -812,11 +812,9 @@ RANDOM FACT CONTAINER
     changeForm 0.3s 0.4s ease-out forwards 1;
 }
 .randomFact {
-  display: flex;
   left: -1%;
   top: 95%;
   z-index: 22222;
-  align-items: center;
   transform: rotate(45deg);
   position: absolute;
   width: 10vw;
@@ -839,7 +837,7 @@ RANDOM FACT CONTAINER
   }
   100% {
     width: 400px;
-    height: 60vh;
+    height: 70vh;
     clip-path: polygon(47% 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
   }
 }
@@ -873,7 +871,7 @@ RANDOM FACT CONTAINER
   top: 50%;
   transform: translate(-50%, -50%) rotate(90deg);
   width: 400px;
-  height: 60vh;
+  height: 70vh;
   clip-path: polygon(47% 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
   animation: changeFormBack 0.5s linear forwards 1,
     flyOut 0.2s 0.6s ease-in forwards 1;
@@ -890,7 +888,7 @@ RANDOM FACT CONTAINER
 @keyframes changeFormBack {
   0% {
     width: 400px;
-    height: 60vh;
+    height: 52vw;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
@@ -920,30 +918,46 @@ RANDOM FACT CONTAINER
 }
 
 .innerRandomFact {
-  transform: rotate(-90deg);
-  width: 50vh;
-  height: 350px;
   opacity: 0;
   animation: opacityToOne 1s 1s linear forwards;
-
-  align-self: center;
-  justify-self: flex-start;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
+
+  height: 350px;
+  width: 60vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
 }
 
 .randomFact img {
-  width: 30vw;
-  height: 25vh;
+  width: auto;
+  height: 35vh;
+  margin: 0 2vw 0 0;
   object-fit: contain;
   align-self: center;
   justify-self: flex-start;
   object-position: top;
 }
+
+.projectPage[data-id="0"] .randomFact img {
+  height: 35vh;
+}
+
+.projectPage[data-id="1"] .randomFact img {
+  height: 31vh;
+}
 .randomFact h4 {
-  margin: 3%;
+  margin: 8% 0;
+  font-size: 1.5vw;
+}
+
+.randomFact p {
+  font-size: 1.3vw;
+  line-height: 2.2vh;
 }
 
 /***************

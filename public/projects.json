@@ -5,12 +5,13 @@
     "projectLink": "https://indre101.github.io/celine-marie/",
     "typeOfProject": "Website",
     "individualOrGroup": "Group",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "tools": "JS, HTML, CSS, Github,  WordPress plugin Pods, Databases",
     "featuredImage": "celine.png",
+    "factsAboutTheProject": "This project's goal was to collaborate with an artist and create their portfolio website that would reflect their personality and appeal to the target audience. Since the artist did not want a typical website, we decided to make something unusual for a website design, yet easily recognisable user experience. My main role in this project was coding the solution and being responsible for dividing the tasks when it came to it. ",
     "icon": "celine.png",
     "video": "celine.mp4",
-    "randomFact": "So iam not good at drawing"
+    "randomFactImg": "celine.png",
+    "randomFact": "This scheme provides an overview of the database structure that was created for this website, in order to be able to fecth the data in the project."
   },
   {
     "id": 1,
@@ -18,15 +19,13 @@
     "projectLink": "https://indre101.github.io/Door_game/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
-    "myResponsibilities": ["Character design", "story developer", "coding"],
-    "projectsGoal": "Create and code an animated story",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "tools": "JS, HTML, CSS, Adobe Illustrator, CSS animations, prototyping",
+    "factsAboutTheProject": "This was one of my personal projects that I finished. I started teaching myself coding prior to school through Code Academy and at some point one of the tasks was to make a similar door game. So after the first semester at school I decided to remake the same game, since I knew that my skills definitely improved. So the improved version has animations, sound, few levels and is responsive. ",
     "featuredImage": "escape.png",
     "video": "escape.mp4",
     "icon": "escape.png",
-
-    "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
+    "randomFactImg": "escape.png",
+    "randomFact": "This is basically how the project that inspired me to do actually looked like and I am pretty sure I had to constantly look at code academy hints on how to code this."
   },
   {
     "id": 2,
@@ -43,6 +42,8 @@
     "icon": "poster.png",
 
     "video": "poster.mp4",
+    "randomFactImg": "celine.png",
+
     "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
   },
   {
@@ -58,6 +59,7 @@
     "featuredImage": "invention.png",
     "video": "invention.mp4",
     "icon": "invention.png",
+    "randomFactImg": "celine.png",
 
     "randomFact": "So iam not good at drawing"
   },
@@ -75,6 +77,8 @@
     "icon": "hogwarts.png",
 
     "video": "hogwarts.mp4",
+    "randomFactImg": "celine.png",
+
     "randomFact": "So iam not good at drawing"
   },
   {
@@ -90,6 +94,7 @@
     "featuredImage": "huset.png",
     "video": "huset.mp4",
     "icon": "huset.png",
+    "randomFactImg": "celine.png",
 
     "randomFact": "So iam not good at drawing"
   },
@@ -105,6 +110,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "chad.png",
     "icon": "chad.png",
+    "randomFactImg": "celine.png",
 
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
@@ -122,6 +128,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "office.png",
     "icon": "office.png",
+    "randomFactImg": "celine.png",
 
     "video": "office.mp4",
     "randomFact": "So iam not good at drawing"
@@ -138,6 +145,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "boot.png",
     "icon": "boot.png",
+    "randomFactImg": "celine.png",
 
     "video": "boot.mp4",
     "randomFact": "So iam not good at drawing"

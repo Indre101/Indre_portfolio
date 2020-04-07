@@ -60,7 +60,6 @@ class ProjectPage extends Component {
   }
 
   render() {
-    console.log(this.props.activeproject);
     const isProjectPageDisplayed = this.props.isProjectPageDisplayed
       ? "d-grid"
       : "d-none";
@@ -85,14 +84,16 @@ class ProjectPage extends Component {
           data-visible={`${this.state.isRandomIconClicked}`}
           data-endanimation={`${this.state.isDisplayingRandomfact}`}
           onClick={this.handleClickRandomIcon}>
-          <div className={`randomFact`}>
+          <div className="randomFact">
             <div className="innerRandomFact">
               <img
-                src={require("../assets/randomProjectImg/chad.png")}
+                src={require(`../assets/randomProjectImg/${this.props.activeproject.randomFactImg}`)}
                 alt="Random"
               />
-              <h4>Random fact about this projects is</h4>
-              <p>{this.props.activeproject.randomFact}</p>
+              <div className="randomFactText">
+                <h4>Random fact</h4>
+                <p>{this.props.activeproject.randomFact}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -136,8 +137,7 @@ class ProjectPage extends Component {
             <p>{this.props.activeproject.factsAboutTheProject}</p>
             <div className="technologies">
               <p>
-                <b>Technologies and software</b>{" "}
-                {this.props.activeproject.tools}
+                <b>Improved skills: </b> {this.props.activeproject.tools}
               </p>
             </div>
             <div
