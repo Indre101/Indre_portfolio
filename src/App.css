@@ -614,17 +614,17 @@ footer h4 {
   justify-self: flex-end;
   opacity: 0;
   animation: opacityToOne 0.3s 1s ease-in-out 1 forwards,
-    AnimationName 30s ease infinite;
+    moveLinearGradient 30s ease infinite;
   cursor: pointer;
   background: linear-gradient(333deg, #0b0b0b, #f9f9f9, #f9f9f9, #5a5958);
   background-size: 800% 800%;
 }
 
 .gifContainer:hover .projectGIF {
-  filter: grayscale(0.5);
+  filter: grayscale(0);
 }
 
-@keyframes AnimationName {
+@keyframes moveLinearGradient {
   0% {
     background-position: 0% 18%;
   }
@@ -648,17 +648,27 @@ footer h4 {
   filter: grayscale(0);
 }
 
-.gifBtn {
+.gifBtnContainer {
   position: absolute;
+  height: 96%;
+  width: 52vw;
+  justify-content: center;
+  align-items: center;
+  z-index: 11111;
+  cursor: pointer;
+  background-color: #d8d8d8b8;
+  opacity: 0;
+  animation: opacityToOne 0.2s ease-in forwards 1;
+}
+
+.gifBtn {
   background-image: url("./assets/icons/play-button.svg");
   background-size: contain;
   background-color: transparent;
   border: none;
   width: 100px;
   height: 100px;
-  z-index: 11111;
   transition: 0.3s filter ease-in, transform 0.3s ease-in;
-  cursor: pointer;
 }
 
 .gifBtn:hover {

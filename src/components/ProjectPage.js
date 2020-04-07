@@ -65,7 +65,7 @@ class ProjectPage extends Component {
       ? "d-grid"
       : "d-none";
 
-    const playdButtonDisplay = this.state.isPlaying ? "d-none" : "d-block";
+    const playdButtonDisplay = this.state.isPlaying ? "d-none" : "d-flex";
     // const randomFactDisplay = this.state.isRandomIconClicked
     //   ? "d-flex"
     //   : "slideLeft";
@@ -152,10 +152,11 @@ class ProjectPage extends Component {
             </div>
           </div>
           <div className="gifContainer">
-            <button
-              className={`gifBtn ${playdButtonDisplay}`}
-              onClick={this.handleVideoClick}></button>
-
+            <div
+              className={`gifBtnContainer ${playdButtonDisplay}`}
+              onClick={this.handleVideoClick}>
+              <button className="gifBtn"></button>
+            </div>
             <video
               ref={(video) => (this.video = video)}
               muted
