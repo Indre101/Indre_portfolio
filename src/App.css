@@ -567,6 +567,8 @@ footer h4 {
 
 .projectPage {
   scroll-snap-align: start;
+  scroll-behavior: smooth;
+
   min-height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 10% auto;
@@ -756,10 +758,10 @@ div.technologies p {
   height: 17vh;
 }
 
+.projectPage[data-id="1"] .longerInfo .innerImg,
 .projectPage[data-id="4"] .longerInfo .innerImg,
 .projectPage[data-id="5"] .longerInfo .innerImg,
-.projectPage[data-id="7"] .longerInfo .innerImg,
-.projectPage[data-id="9"] .longerInfo .innerImg {
+.projectPage[data-id="8"] .longerInfo .innerImg {
   height: 6vh;
 }
 /*************

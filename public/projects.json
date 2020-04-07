@@ -80,7 +80,7 @@
   {
     "id": 5,
     "projectName": "Huset volunteer",
-    "projectLink": "https://indre101.github.io/Hogwarts-students/",
+    "projectLink": "https://indre101.github.io/huset/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
     "myResponsibilities": ["Character design", "story developer", "coding"],
@@ -88,7 +88,7 @@
     "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "huset.png",
-    "video": "chad.mp4",
+    "video": "huset.mp4",
     "icon": "huset.png",
 
     "randomFact": "So iam not good at drawing"
@@ -109,24 +109,9 @@
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
   },
+
   {
     "id": 7,
-    "projectName": "Coloring book",
-    "projectLink": "https://indre101.github.io/coloring-book/",
-    "typeOfProject": "Animation/Game",
-    "individualOrGroup": "Individual",
-    "myResponsibilities": ["Character design", "story developer", "coding"],
-    "projectsGoal": "Create and code an animated story",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
-    "featuredImage": "color.png",
-    "icon": "color.svg",
-
-    "video": "chad.mp4",
-    "randomFact": "So iam not good at drawing"
-  },
-  {
-    "id": 8,
     "projectName": "The Office",
     "projectLink": "https://indre101.github.io/office/",
     "typeOfProject": "Animation/Game",
@@ -138,11 +123,11 @@
     "featuredImage": "office.png",
     "icon": "office.png",
 
-    "video": "chad.mp4",
+    "video": "office.mp4",
     "randomFact": "So iam not good at drawing"
   },
   {
-    "id": 9,
+    "id": 8,
     "projectName": "First bootsrap page",
     "projectLink": "https://indre101.github.io/bootstrap/bootstrap_web_01/",
     "typeOfProject": "Animation/Game",
@@ -154,7 +139,7 @@
     "featuredImage": "boot.png",
     "icon": "boot.png",
 
-    "video": "chad.mp4",
+    "video": "boot.mp4",
     "randomFact": "So iam not good at drawing"
   }
 ]
