@@ -150,6 +150,9 @@ h2 {
 .d-grid {
   display: grid;
 }
+.d-inline {
+  display: inline;
+}
 
 .slideUpAnimation {
   animation: slideUp 0.5s linear forwards 1;
@@ -950,6 +953,11 @@ RANDOM FACT CONTAINER
 .projectPage[data-id="1"] .randomFact img {
   height: 31vh;
 }
+
+.projectPage[data-id="2"] .randomFact img {
+  height: 28vh;
+}
+
 .randomFact h4 {
   margin: 8% 0;
   font-size: 1.5vw;
@@ -960,6 +968,9 @@ RANDOM FACT CONTAINER
   line-height: 2.2vh;
 }
 
+a.randomLink img {
+  height: 2vh !important;
+}
 /***************
 About modal
  ******************/

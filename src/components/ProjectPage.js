@@ -65,9 +65,9 @@ class ProjectPage extends Component {
       : "d-none";
 
     const playdButtonDisplay = this.state.isPlaying ? "d-none" : "d-flex";
-    // const randomFactDisplay = this.state.isRandomIconClicked
-    //   ? "d-flex"
-    //   : "slideLeft";
+    const displayRandomLink = this.props.activeproject.randomlink
+      ? "d-inline"
+      : "d-none";
     const firstArrowDisplay = this.props.activeproject.id === 0 ? true : false;
     const LastArrowDisplay =
       this.props.activeproject.id === this.props.projectListLength - 1
@@ -92,7 +92,20 @@ class ProjectPage extends Component {
               />
               <div className="randomFactText">
                 <h4>Random fact</h4>
-                <p>{this.props.activeproject.randomFact}</p>
+                <p>
+                  {this.props.activeproject.randomFact}{" "}
+                  <a
+                    className={`randomLink ${displayRandomLink}`}
+                    href={
+                      this.props.activeproject.randomlink
+                        ? this.props.activeproject.randomlink
+                        : "_self"
+                    }
+                    rel="noopener noreferrer"
+                    target="_blank">
+                    <img src={require("../assets/icons/link.svg")} alt="" />
+                  </a>
+                </p>
               </div>
             </div>
           </div>

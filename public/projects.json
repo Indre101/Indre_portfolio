@@ -11,6 +11,7 @@
     "icon": "celine.png",
     "video": "celine.mp4",
     "randomFactImg": "celine.png",
+    "randomlink": false,
     "randomFact": "This scheme provides an overview of the database structure that was created for this website, in order to be able to fecth the data in the project."
   },
   {
@@ -25,26 +26,25 @@
     "video": "escape.mp4",
     "icon": "escape.png",
     "randomFactImg": "escape.png",
-    "randomFact": "This is basically how the project that inspired me to do actually looked like and I am pretty sure I had to constantly look at code academy hints on how to code this."
+    "randomlink": "https://indre101.github.io/code_code/js/robotgame.js/",
+
+    "randomFact": "This is basically how the old version actually looked like and I am pretty sure I had to constantly look at code academy hints on how to code it. Link to this version "
   },
   {
     "id": 2,
     "projectName": "Interactive movie poster",
     "projectLink": "https://indre101.github.io/Interactive_movie_poster/firstScene.html",
     "typeOfProject": "Animation/Game",
-    "individualOrGroup": "Individual",
-    "myResponsibilities": ["Character design", "story developer", "coding"],
-    "projectsGoal": "Create and code an animated story",
-    "tools": "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
-    "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
+    "individualOrGroup": "Group",
+    "tools": "JS, HTML, CSS, CSS animations",
 
     "featuredImage": "poster.png",
     "icon": "poster.png",
-
+    "factsAboutTheProject": "The project's premise was that Cinemateket was planning on doing screenings of cult movies, so we were given to choose one of the movies and make a promotional, interactive poster for the movie. Our chosen movie was The Shining, the illustrations were inspired by the Year Walk style. My responsibilities mostly included coding the solution, drawing storyboard and state machine diagram.",
     "video": "poster.mp4",
-    "randomFactImg": "celine.png",
-
-    "randomFact": "loremloremloremloremloremloremloremloremloremloremlorem "
+    "randomFactImg": "poster.png",
+    "randomlink": false,
+    "randomFact": "This was the first group project we had in the school, as well as this was the first time I was working with adding audio to interactions and I finally watched The Shining."
   },
   {
     "id": 3,
@@ -60,6 +60,7 @@
     "video": "invention.mp4",
     "icon": "invention.png",
     "randomFactImg": "celine.png",
+    "randomlink": false,
 
     "randomFact": "So iam not good at drawing"
   },
@@ -75,6 +76,7 @@
     "factsAboutTheProject": "This projects goal was to collaborate with an artist and create their portfolio website. So as a group we brainstormed for design ideas and since the artist had a particular taste, we wanted to make something unusual, but yest easily recognisible interface.My main role was coding the solution and being responsible for dividing the tasks when it came to it. For collaboration we used github and everything was coded with vanilla JS, HTML, CSS. ",
     "featuredImage": "hogwarts.png",
     "icon": "hogwarts.png",
+    "randomlink": false,
 
     "video": "hogwarts.mp4",
     "randomFactImg": "celine.png",
@@ -95,6 +97,7 @@
     "video": "huset.mp4",
     "icon": "huset.png",
     "randomFactImg": "celine.png",
+    "randomlink": false,
 
     "randomFact": "So iam not good at drawing"
   },
@@ -111,6 +114,7 @@
     "featuredImage": "chad.png",
     "icon": "chad.png",
     "randomFactImg": "celine.png",
+    "randomlink": false,
 
     "video": "chad.mp4",
     "randomFact": "So iam not good at drawing"
@@ -129,6 +133,7 @@
     "featuredImage": "office.png",
     "icon": "office.png",
     "randomFactImg": "celine.png",
+    "randomlink": false,
 
     "video": "office.mp4",
     "randomFact": "So iam not good at drawing"
@@ -146,6 +151,7 @@
     "featuredImage": "boot.png",
     "icon": "boot.png",
     "randomFactImg": "celine.png",
+    "randomlink": false,
 
     "video": "boot.mp4",
     "randomFact": "So iam not good at drawing"
