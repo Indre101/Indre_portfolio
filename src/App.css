@@ -658,7 +658,7 @@ footer h4 {
   cursor: pointer;
   background-color: #d8d8d8b8;
   opacity: 0;
-  animation: opacityToOne 0.2s ease-in forwards 1;
+  animation: opacityToOne 0.1s ease-in forwards 1;
 }
 
 .gifBtn {
