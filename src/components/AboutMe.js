@@ -10,20 +10,17 @@ export default class AboutMe extends Component {
           <img src={require("../assets/images/indre-1.png")} alt="It's Me" />
           <div className="text textAboutme">
             <ul className="factsAboutMe">
-              <li>I am a student at KEA</li>
+              <li>I am a multimedia design programme student at KEA</li>
               <li>
                 I enjoy coding, a lot, why? because it is challenging but it's
                 very gratifying to see the growth in my skills
               </li>
-              <li>I feel comfortable while using CSS, HTML</li>
-              <li>
-                JS is complex but very fun and interesting to be working with
-              </li>
-              <li>
-                Every bug that comes a long is an oportunity to grown and learn
-              </li>
-              <li>I am motivated, positive and communicative person</li>
+              <li>I was self employed for 3 years prior to education</li>
+
+              <li>At the moment I am teaching myself React</li>
+              <li>I am motivated, positive and friendly person</li>
             </ul>
+
             <button className="liButton">Read more about me</button>
           </div>
         </div>
@@ -31,33 +28,28 @@ export default class AboutMe extends Component {
         <div className="aboutMeModal">
           <div className="inner">
             <p>
-              Let me tell you more about myself then. I started studying at KEA,
-              because I decided that I wanted to completely change my direction,
-              and since I was always intruiged and interested in fornt end, I
-              saw a multi media design study programme at KEA as a perfect
-              opportunity to get the knowledge and start my path as front end
-              developer.
+              Let me tell you more about myself then. I decided to study MMD,
+              because I wanted to change my professional direction, and since I
+              was familiar with front end development from my previous
+              education, I thought It was time to renew my knowledge and gain
+              new skills.
               <br />
-              I really enjoy coding and the challenges it can have, because
-              there is always at least few ways how to solve a problem and this
-              of cource inevitably helps to be in the position of constant
-              improvement or frustration...but either way I enjoy it because of
-              these reasons.
-              <br />A little bit about my proffesional background for about 5-6
+              I really enjoy coding, the possibilities of everyday improvement,
+              at the moment seems endless. I think that's the greatest appeal of
+              this industry and of course along comes the challenges of being
+              stuck at certain tasks but either way I enjoy it.
+              <br />A little bit about my professional background for about 3
               years prior to education I was in a beauty/service industry
-              responsible with customer support and providing service. I used to
-              do eyelash extensions at a beauty salon but after a while I
-              decided to open my own and it was a learning experience, that
-              taught me a lot in general and what I would like my job to be.{" "}
+              working in my small business. Being self employed was a learning
+              experience and a challenge. One of the main reasons why I decided
+              to pursue MMD education, was that I felt like I wasn't growing
+              professionally anymore. Everyday work tasks seemed very repetitive
+              and I was working mostly alone, so I missed being part of the team
+              as well.
               <br />
-              One of the main reasons why i decided to stop my busssiness and
-              pursue this is because I felt like I wasn't growing proffesionally
-              anymore. That was one of the main things that made front end
-              development so interestnig for me.
-              <br />
-              Maybe the lsat few things i'd like to say about me is that I am
-              motivated, independent and friendly person, I have few hobbies,
-              none of whicha are really impressive.
+              Maybe the last few things I'd like to say about me is that I am a
+              a curious person, I tend to teach myself a lot of things on my
+              own. Like taking upon to teach myself SASS, BOOTSTRAP or REACT.
             </p>
           </div>
         </div>
@@ -80,7 +72,7 @@ export default class AboutMe extends Component {
               src={require("../assets/icons/mail-1.svg")}
               alt="Icon of social media"
             />
-            <h4>email: zygaityte.indre@gmail.com</h4>
+            {/* <h4>email: zygaityte.indre@gmail.com</h4> */}
           </div>
         </footer>
       </section>

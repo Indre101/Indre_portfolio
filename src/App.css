@@ -474,7 +474,7 @@ ul {
 }
 
 .factsAboutMe li:first-child {
-  margin: 0;
+  margin: 0 0 7vh;
 }
 
 button.liButton {
