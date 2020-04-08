@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/App.css";
 
 const MenuButton = (props) => {
   const acitveClassMenuBtn = !props.isMenuOpen ? "unclicked" : "clicked";

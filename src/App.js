@@ -5,7 +5,6 @@ import ProjectPage from "./components/ProjectPage";
 import ProjectsPage from "./components/ProjectsPage";
 import CloseProjectBtn from "./components/CloseProjectBtn";
 import AboutMe from "./components/AboutMe";
-import "./styles/App.css";
 import data from "./data";
 
 class App extends Component {

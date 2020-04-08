@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
-import "../styles/App.css";
 
 class ProjectsPage extends Component {
   render() {

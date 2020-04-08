@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import MenuButton from "./MenuButton";
-import "../styles/App.css";
 
 class FirstPage extends Component {
   render() {
