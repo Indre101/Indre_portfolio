@@ -445,12 +445,8 @@ div.arrowNext:hover h5 {
   display: grid;
   height: 100vh;
   align-self: center;
-  box-shadow: 1px 1px 1px grey;
   justify-self: center;
-  margin: 0 auto;
   background-color: #014569;
-
-  padding: 2vw 0;
 }
 
 .infoAboutMe h2 {
@@ -770,6 +766,28 @@ div.technologies p {
   transition: filter 0.3s ease-in-out;
   transform: scaleX(-1);
   cursor: pointer;
+  animation-name: shadowMove;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+[data-animation="play"] {
+  animation-iteration-count: infinite;
+}
+
+[data-animation="stop"] {
+  animation-iteration-count: 0;
+}
+
+@keyframes shadowMove {
+  0% {
+    filter: drop-shadow(1px 2px 1px black);
+  }
+  100% {
+    filter: drop-shadow(2px 4px 6px black);
+  }
 }
 
 .projectPage[data-id="2"] .longerInfo .innerImg {

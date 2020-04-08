@@ -15,10 +15,12 @@ class App extends Component {
       menuDisplayProperty: "none",
       isProjectPageDisplayed: false,
       projects: [],
+      projectIconAnimation: true,
     };
 
     this.toggleMenu = this.toggleMenu.bind(this);
     this.toggleProjectPage = this.toggleProjectPage.bind(this);
+    this.stopProjectIconAnimation = this.stopProjectIconAnimation.bind(this);
   }
 
   toggleMenu() {
@@ -26,6 +28,15 @@ class App extends Component {
       return {
         isMenuOpen: prevState.isMenuOpen ? false : true,
         menuDisplayProperty: "flex",
+      };
+    });
+  }
+
+  stopProjectIconAnimation() {
+    console.log("stoped Animation");
+    this.setState(() => {
+      return {
+        projectIconAnimation: false,
       };
     });
   }
@@ -55,6 +66,8 @@ class App extends Component {
             toggleProjectPage={this.toggleProjectPage}
             activeproject={project}
             projectListLength={this.state.projects.length}
+            stopProjectIconAnimation={this.stopProjectIconAnimation}
+            projectIconAnimation={this.state.projectIconAnimation}
           />
         ))
       : null;

@@ -81,6 +81,10 @@ class ProjectPage extends Component {
         ? true
         : false;
 
+    const iconAnimationStatus = this.props.projectIconAnimation
+      ? "play"
+      : "stop";
+
     return (
       <div
         data-id={this.props.activeproject.id}
@@ -165,10 +169,14 @@ class ProjectPage extends Component {
             <div
               className="innerImgContainer"
               data-active={`${this.state.isRandomIconClicked}`}
-              onClick={() => this.handleClickRandomIcon()}>
+              onClick={() => {
+                this.handleClickRandomIcon();
+                this.props.stopProjectIconAnimation();
+              }}>
               <img
                 className="innerImg"
                 src={require(`../assets/projectIcons/${this.props.activeproject.icon}`)}
+                data-animation={`${iconAnimationStatus}`}
                 alt="Chad"
               />
             </div>
