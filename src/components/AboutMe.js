@@ -4,11 +4,31 @@ export default class AboutMe extends Component {
   render() {
     return (
       <section id="AboutMe" className="pageSection aboutMePageContainer">
-        <h2>About me</h2>
-
         <div className="infoAboutMe">
-          <img src={require("../assets/images/indre-1.png")} alt="It's Me" />
+          <div className="infoAboutPart">
+            <img src={require("../assets/images/indre-6.png")} alt="It's Me" />
+
+            <div className="icons">
+              <a href="https://www.linkedin.com/feed/">
+                <img
+                  src={require("../assets/icons/icon-one.png")}
+                  alt="Icon of social media"
+                />
+              </a>
+              <a href="https://github.com/Indre101">
+                <img
+                  src={require("../assets/icons/icon-2.png")}
+                  alt="Icon of social media"
+                />
+              </a>
+              <img
+                src={require("../assets/icons/mail-1.svg")}
+                alt="Icon of social media"
+              />
+            </div>
+          </div>
           <div className="text textAboutme">
+            <h2>About me</h2>
             <ul className="factsAboutMe">
               <li>I am a multimedia design programme student at KEA</li>
               <li>
@@ -54,7 +74,7 @@ export default class AboutMe extends Component {
           </div>
         </div>
 
-        <footer>
+        {/* <footer>
           <div className="icons">
             <a href="https://www.linkedin.com/feed/">
               <img
@@ -72,9 +92,8 @@ export default class AboutMe extends Component {
               src={require("../assets/icons/mail-1.svg")}
               alt="Icon of social media"
             />
-            {/* <h4>email: zygaityte.indre@gmail.com</h4> */}
           </div>
-        </footer>
+        </footer> */}
       </section>
     );
   }

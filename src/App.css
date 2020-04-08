@@ -435,19 +435,58 @@ div.arrowNext:hover h5 {
 /* ABOUT ME */
 .aboutMePageContainer {
   background-color: white;
-  grid-auto-rows: max-content;
-}
-
-.infoAboutMe {
-  grid-area: 3/2 / span 1 / span 1;
   display: flex;
 }
 
+.infoAboutMe {
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  height: 70%;
+  align-self: center;
+  box-shadow: 1px 1px 1px grey;
+  width: 80%;
+  justify-self: center;
+  margin: 0 auto;
+  background-color: #f5d354;
+
+  padding: 2vw 0;
+}
+
+.infoAboutMe h2 {
+  padding: 0 30px;
+  margin: 3vh 0;
+  color: white;
+}
+
+.infoAboutPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  width: 52%;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+}
+.icons a img,
+div.icons img {
+  width: 50px;
+  height: 50px;
+  margin: 0 1vh;
+}
+
 .infoAboutMe img {
-  width: 40%;
+  justify-self: center;
+  width: 63%;
   object-fit: contain;
-  margin-top: auto;
   filter: var(--shadow);
+  filter: grayscale(1);
 }
 
 ul {
@@ -456,32 +495,24 @@ ul {
 
 .factsAboutMe li,
 .liButton {
-  /* opacity: 0; */
+  /* border-radius: 15px; */
   font-size: 1.2vw;
   color: white;
-  background-color: black;
-  padding: 0.4vw;
   margin: 3vw 0;
-  width: fit-content;
+  padding: 1.3em 29px;
+  width: 50%;
+  background-color: #48ade2;
+  /* border-radius: 15px 15px 0; */
+  margin: 2vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 97% 93%, 79% 93%, 0 93%);
 }
 
-.factsAboutMe li:nth-child(even) {
-  margin: 0 0 0 15vw;
-}
-
-.factsAboutMe li:nth-child(odd) {
-  margin: 4vw 3vw;
-}
-
-.factsAboutMe li:first-child {
-  margin: 0 0 7vh;
-}
-
-button.liButton {
-  margin: 3vw -3vw;
+.liButton {
+  border-radius: none;
+  clip-path: none;
+  border: none;
+  background-color: #48ade2;
   cursor: pointer;
-  background-color: green;
-  opacity: 1;
 }
 
 .textAboutme {
@@ -502,19 +533,6 @@ footer {
 footer h4 {
   color: white;
   grid-area: 2/2 / span 1 / span 1;
-}
-
-.icons {
-  grid-area: 1/2 / span 1 / span 1;
-  margin: 2vh 0 1vh 0;
-  display: flex;
-  align-items: flex-end;
-}
-
-.icons img {
-  width: 50px;
-  height: 40px;
-  object-fit: contain;
 }
 
 /***************
