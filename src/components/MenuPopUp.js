@@ -20,7 +20,7 @@ export default class MenuPopUp extends Component {
         <a onClick={() => this.props.toggleMenu()} href="#Projects">
           <h2>Projects</h2>
         </a>
-        <a onClick={() => this.props.toggleMenu()} href="#AboutMe">
+        <a onClick={() => this.props.toggleMenu()} href="#Contacts">
           <h2>Contact</h2>
         </a>
       </article>

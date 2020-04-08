@@ -1,7 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Contacts extends Component {
-  render() {
-    return <div></div>;
-  }
-}
+const Contacts = () => {
+  let i = 0;
+  const text = "zygaityte.indre@gmail.com";
+  const letters = text.split("");
+  const leterElements = letters.map((letter) => (
+    <span key={i++}>{letter}</span>
+  ));
+
+  return (
+    <div id="Contacts" className="contactPage">
+      <div className="emailText">
+        <h4>{leterElements}</h4>
+      </div>
+    </div>
+  );
+};
+
+export default Contacts;

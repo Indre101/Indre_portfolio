@@ -27,7 +27,6 @@
     "icon": "escape.png",
     "randomFactImg": "escape.png",
     "randomlink": "https://indre101.github.io/code_code/js/robotgame.js/",
-
     "randomFact": "This is basically how the old version actually looked like and I am pretty sure I had to constantly look at code academy hints on how to code it. Link to this version "
   },
   {
@@ -37,7 +36,6 @@
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Group",
     "tools": "JS, HTML, CSS, CSS animations",
-
     "featuredImage": "poster.png",
     "icon": "poster.png",
     "factsAboutTheProject": "The project's premise was that Cinemateket was planning on doing screenings of cult movies, so we were given to choose one of the movies and make a promotional, interactive poster for the movie. Our chosen movie was The Shining, the illustrations were inspired by the Year Walk style. My responsibilities mostly included coding the solution, drawing storyboard and state machine diagram.",

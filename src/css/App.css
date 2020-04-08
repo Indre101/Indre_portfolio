@@ -281,6 +281,7 @@ section.projectsPageContainer {
 }
 .projectsPageContainer h2,
 .aboutMePageContainer h2 {
+  text-transform: uppercase;
   grid-area: 1/2 / span 1 / span 1;
   color: black;
   align-self: flex-end;
@@ -978,7 +979,7 @@ RANDOM FACT CONTAINER
 }
 
 .projectPage[data-id="2"] .randomFact img {
-  height: 28vh;
+  height: 26vh;
 }
 .projectPage[data-id="7"] .randomFact img,
 .projectPage[data-id="4"] .randomFact img {
@@ -1127,6 +1128,38 @@ About modal
   animation: appear 1s ease-in forwards 1;
 }
 
+/* ****************
+
+CONTACTS PAGE
+ **************/
+
+.contactPage {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+}
+
+.emailText {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailText span {
+  letter-spacing: 200px;
+  transition: letter-spacing 0.3s ease-in-out;
+}
+
+.emailText:hover span {
+  letter-spacing: 0;
+}
 /* ========
 Animations
 =========== */

@@ -38,10 +38,6 @@ export default class AboutMe extends Component {
                   alt="Icon of social media"
                 />
               </a>
-              <img
-                src={require("../assets/icons/mail-1.svg")}
-                alt="Icon of social media"
-              />
             </div>
           </div>
           <div className="text textAboutme">
@@ -117,27 +113,6 @@ export default class AboutMe extends Component {
             </div>
           </div>
         </div>
-
-        {/* <footer>
-          <div className="icons">
-            <a href="https://www.linkedin.com/feed/">
-              <img
-                src={require("../assets/icons/icon-one.png")}
-                alt="Icon of social media"
-              />
-            </a>
-            <a href="https://github.com/Indre101">
-              <img
-                src={require("../assets/icons/icon-2.png")}
-                alt="Icon of social media"
-              />
-            </a>
-            <img
-              src={require("../assets/icons/mail-1.svg")}
-              alt="Icon of social media"
-            />
-          </div>
-        </footer> */}
       </section>
     );
   }
