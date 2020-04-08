@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import data from "./data";
 import FirstPage from "./components/FirstPage";
 import MenuPopUp from "./components/MenuPopUp";
 import ProjectPage from "./components/ProjectPage";
 import ProjectsPage from "./components/ProjectsPage";
 import CloseProjectBtn from "./components/CloseProjectBtn";
 import AboutMe from "./components/AboutMe";
-import data from "./data";
+import Contacts from "./components/Contacts";
 class App extends Component {
   constructor() {
     super();
@@ -97,6 +98,7 @@ class App extends Component {
         </div>
 
         <AboutMe />
+        <Contacts />
       </div>
     );
   }
