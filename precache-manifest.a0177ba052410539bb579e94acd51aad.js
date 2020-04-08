@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de1b889ee95b9bde5d6903ccaf88e041",
+    "revision": "d9569b38be42ecf0e6e54b959c7e661f",
     "url": "/Indre_portfolio/index.html"
   },
   {
-    "revision": "4842f29ddaecd69fc2c0",
-    "url": "/Indre_portfolio/static/css/main.c427417e.chunk.css"
+    "revision": "3eb677c851f4178177cf",
+    "url": "/Indre_portfolio/static/css/main.86636f25.chunk.css"
   },
   {
     "revision": "9288e5ecfdf6c253be65",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Indre_portfolio/static/js/2.5ef30988.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4842f29ddaecd69fc2c0",
+    "revision": "3eb677c851f4178177cf",
     "url": "/Indre_portfolio/static/js/main.252e613e.chunk.js"
   },
   {
