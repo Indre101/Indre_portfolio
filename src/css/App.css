@@ -449,7 +449,7 @@ div.arrowNext:hover h5 {
   width: 80%;
   justify-self: center;
   margin: 0 auto;
-  background-color: #f5d354;
+  background-color: #48ade2;
 
   padding: 2vw 0;
 }
@@ -501,7 +501,9 @@ ul {
   margin: 3vw 0;
   padding: 1.3em 29px;
   width: 50%;
-  background-color: #48ade2;
+  /* background-color: #48ade2; */
+  background-color: #f5d354;
+
   /* border-radius: 15px 15px 0; */
   margin: 2vh;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 97% 93%, 79% 93%, 0 93%);
