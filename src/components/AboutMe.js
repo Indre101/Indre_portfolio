@@ -1,7 +1,24 @@
 import React, { Component } from "react";
 
 export default class AboutMe extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isAboutMeModalDisplayed: false,
+    };
+    this.toggleAboutMeModal = this.toggleAboutMeModal.bind(this);
+  }
+
+  toggleAboutMeModal() {
+    this.setState({
+      isAboutMeModalDisplayed: !this.state.isAboutMeModalDisplayed,
+    });
+  }
+
   render() {
+    const modalDisplayValue = this.state.isAboutMeModalDisplayed
+      ? "d-flex"
+      : "d-none";
     return (
       <section id="AboutMe" className="pageSection aboutMePageContainer">
         <div className="infoAboutMe">
@@ -41,11 +58,15 @@ export default class AboutMe extends Component {
               <li>I am motivated, positive and friendly person</li>
             </ul>
 
-            <button className="liButton">Read more about me</button>
+            <button className="liButton" onClick={this.toggleAboutMeModal}>
+              Read more about me
+            </button>
           </div>
         </div>
 
-        <div className="aboutMeModal">
+        <div
+          className={`aboutMeModal ${modalDisplayValue}`}
+          onClick={this.toggleAboutMeModal}>
           <div className="inner">
             <div className="par par-1">
               <p>

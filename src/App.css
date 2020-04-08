@@ -1016,7 +1016,6 @@ About modal
   width: 100%;
   height: 100vh;
   background: linear-gradient(0.25turn, #3f87a6c7, #ebf8e1, #f69d3ccc);
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -1036,27 +1035,39 @@ About modal
   gap: 2%;
   align-items: center;
   padding: 3vh 3vw;
+  animation: moveFromLeft 0.5s cubic-bezier(0.99, 0.44, 0.83, 0.67) forwards 1;
 }
+
 .par img {
   width: 50%;
   justify-self: center;
 }
 
 .par-1 {
+  transform: translate(-100vw);
   margin: 0 auto;
 }
 .par-2 {
+  transform: translate(100vw);
+
   margin-left: 23%;
   grid-template-columns: 20% 80%;
+  animation-delay: 0.5s;
 }
 
 .par-3 {
+  transform: translate(-100vw);
+
   margin-left: 26%;
+  animation-delay: 0.7s;
 }
 
 .par-4 {
+  transform: translate(100vw);
+
   margin-left: 22%;
   grid-template-columns: 20% 80%;
+  animation-delay: 1s;
 }
 
 .aboutMeModal[data-show="show"] {
