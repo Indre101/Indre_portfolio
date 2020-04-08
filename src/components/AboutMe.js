@@ -7,7 +7,7 @@ export default class AboutMe extends Component {
         <h2>About me</h2>
 
         <div className="infoAboutMe">
-          <img src={require("./assets/images/indre-1.png")} alt="It's Me" />
+          <img src={require("../assets/images/indre-1.png")} alt="It's Me" />
           <div className="text textAboutme">
             <ul className="factsAboutMe">
               <li>I am a student at KEA</li>
@@ -66,18 +66,18 @@ export default class AboutMe extends Component {
           <div className="icons">
             <a href="https://www.linkedin.com/feed/">
               <img
-                src={require("./assets/icons/icon-one.png")}
+                src={require("../assets/icons/icon-one.png")}
                 alt="Icon of social media"
               />
             </a>
             <a href="https://github.com/Indre101">
               <img
-                src={require("./assets/icons/icon-2.png")}
+                src={require("../assets/icons/icon-2.png")}
                 alt="Icon of social media"
               />
             </a>
             <img
-              src={require("./assets/icons/mail-1.svg")}
+              src={require("../assets/icons/mail-1.svg")}
               alt="Icon of social media"
             />
             <h4>email: zygaityte.indre@gmail.com</h4>
