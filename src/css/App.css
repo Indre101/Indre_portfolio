@@ -443,13 +443,12 @@ div.arrowNext:hover h5 {
   justify-content: center;
   align-items: center;
   display: grid;
-  height: 70%;
+  height: 100vh;
   align-self: center;
   box-shadow: 1px 1px 1px grey;
-  width: 80%;
   justify-self: center;
   margin: 0 auto;
-  background-color: #48ade2;
+  background-color: #014569;
 
   padding: 2vw 0;
 }
@@ -479,6 +478,7 @@ div.icons img {
   width: 50px;
   height: 50px;
   margin: 0 1vh;
+  cursor: pointer;
 }
 
 .infoAboutMe img {
@@ -501,8 +501,7 @@ ul {
   margin: 3vw 0;
   padding: 1.3em 29px;
   width: 50%;
-  /* background-color: #48ade2; */
-  background-color: #f5d354;
+  background-color: #48ade2;
 
   /* border-radius: 15px 15px 0; */
   margin: 2vh;
@@ -519,22 +518,6 @@ ul {
 
 .textAboutme {
   text-align: left;
-}
-
-footer {
-  grid-area: 4/1 / span 1 / span 3;
-  display: grid;
-  grid-template-columns: var(--grid-columns);
-  grid-template-rows: max-content;
-  background-color: var(--primary-color);
-  height: max-content;
-  margin-top: auto;
-  height: 8vh;
-}
-
-footer h4 {
-  color: white;
-  grid-area: 2/2 / span 1 / span 1;
 }
 
 /***************
@@ -641,6 +624,7 @@ footer h4 {
   cursor: pointer;
   background: linear-gradient(333deg, #0b0b0b, #f9f9f9, #f9f9f9, #5a5958);
   background-size: 800% 800%;
+  border-radius: 15px;
 }
 
 .gifContainer:hover .projectGIF {
@@ -681,6 +665,7 @@ footer h4 {
   cursor: pointer;
   background-color: #d8d8d8b8;
   opacity: 0;
+  border-radius: inherit;
   animation: opacityToOne 0.1s ease-in forwards 1;
 }
 

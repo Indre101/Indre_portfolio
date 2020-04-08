@@ -5,7 +5,7 @@ import ProjectPage from "./components/ProjectPage";
 import ProjectsPage from "./components/ProjectsPage";
 import CloseProjectBtn from "./components/CloseProjectBtn";
 import AboutMe from "./components/AboutMe";
-
+import data from "./data";
 class App extends Component {
   constructor() {
     super();
@@ -31,11 +31,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("projects.json")
-      .then((res) => res.json())
-      .then((data) => {
-        this.setState({ projects: data });
-      });
+    // fetch("projects.json")
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    this.setState({ projects: data });
+    // });
   }
 
   toggleProjectPage() {
