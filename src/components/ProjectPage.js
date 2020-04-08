@@ -14,6 +14,7 @@ class ProjectPage extends Component {
     this.handleVideoClick = this.handleVideoClick.bind(this);
     this.toggleRandomFactDisplay = this.toggleRandomFactDisplay.bind(this);
     this.handleClickRandomIcon = this.handleClickRandomIcon.bind(this);
+    this.stopVideo = this.stopVideo.bind(this);
   }
 
   handleVideoClick() {
@@ -32,6 +33,13 @@ class ProjectPage extends Component {
     this.setState({
       isDisplayingRandomfact: !this.state.isDisplayingRandomfact,
     });
+  }
+
+  stopVideo() {
+    if (this.state.isPlaying) {
+      this.video.dataset.clicked = "false";
+      this.video.pause();
+    }
   }
 
   handleClickRandomIcon() {
@@ -116,7 +124,8 @@ class ProjectPage extends Component {
             <a href={`#${this.props.activeproject.id - 1}`}>
               <div
                 className="arrow arrowPrevious"
-                data-firstarrow={firstArrowDisplay}>
+                data-firstarrow={firstArrowDisplay}
+                onClick={this.stopVideo}>
                 <img
                   src={require("../assets/icons/left-arrow-grey.svg")}
                   alt=""
@@ -127,7 +136,8 @@ class ProjectPage extends Component {
             <a href={`#${this.props.activeproject.id + 1}`}>
               <div
                 className="arrow arrowNext"
-                data-firstarrow={LastArrowDisplay}>
+                data-firstarrow={LastArrowDisplay}
+                onClick={this.stopVideo}>
                 <h5>next</h5>
                 <img
                   src={require("../assets/icons/left-arrow-grey.svg")}
