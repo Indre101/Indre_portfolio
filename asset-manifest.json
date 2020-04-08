@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Indre_portfolio/static/css/main.7adead8f.chunk.css",
-    "main.js": "/Indre_portfolio/static/js/main.beffb62a.chunk.js",
-    "main.js.map": "/Indre_portfolio/static/js/main.beffb62a.chunk.js.map",
+    "main.css": "/Indre_portfolio/static/css/main.5e394985.chunk.css",
+    "main.js": "/Indre_portfolio/static/js/main.7aa1f2ed.chunk.js",
+    "main.js.map": "/Indre_portfolio/static/js/main.7aa1f2ed.chunk.js.map",
     "runtime-main.js": "/Indre_portfolio/static/js/runtime-main.01506aba.js",
     "runtime-main.js.map": "/Indre_portfolio/static/js/runtime-main.01506aba.js.map",
     "static/js/2.5ef30988.chunk.js": "/Indre_portfolio/static/js/2.5ef30988.chunk.js",
     "static/js/2.5ef30988.chunk.js.map": "/Indre_portfolio/static/js/2.5ef30988.chunk.js.map",
     "index.html": "/Indre_portfolio/index.html",
-    "precache-manifest.1815970e92816167d6669603e0ce5b32.js": "/Indre_portfolio/precache-manifest.1815970e92816167d6669603e0ce5b32.js",
+    "precache-manifest.e3f1d146dc6d473b415e36712ccdfdf9.js": "/Indre_portfolio/precache-manifest.e3f1d146dc6d473b415e36712ccdfdf9.js",
     "service-worker.js": "/Indre_portfolio/service-worker.js",
-    "static/css/main.7adead8f.chunk.css.map": "/Indre_portfolio/static/css/main.7adead8f.chunk.css.map",
+    "static/css/main.5e394985.chunk.css.map": "/Indre_portfolio/static/css/main.5e394985.chunk.css.map",
     "static/js/2.5ef30988.chunk.js.LICENSE.txt": "/Indre_portfolio/static/js/2.5ef30988.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Indre_portfolio/static/media/play-button.75be2c69.svg",
     "static/media/book-1.svg": "/Indre_portfolio/static/media/book-1.09f45795.svg",
@@ -43,7 +43,6 @@
     "static/media/invention.svg": "/Indre_portfolio/static/media/invention.e9b84989.svg",
     "static/media/left-arrow-grey.svg": "/Indre_portfolio/static/media/left-arrow-grey.9798f185.svg",
     "static/media/link.svg": "/Indre_portfolio/static/media/link.810274f0.svg",
-    "static/media/mail-1.svg": "/Indre_portfolio/static/media/mail-1.bd357a16.svg",
     "static/media/office.mp4": "/Indre_portfolio/static/media/office.38f7f337.mp4",
     "static/media/office.gif": "/Indre_portfolio/static/media/office.427baa0d.gif",
     "static/media/office.png": "/Indre_portfolio/static/media/office.5ae857dd.png",
@@ -53,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.01506aba.js",
     "static/js/2.5ef30988.chunk.js",
-    "static/css/main.7adead8f.chunk.css",
-    "static/js/main.beffb62a.chunk.js"
+    "static/css/main.5e394985.chunk.css",
+    "static/js/main.7aa1f2ed.chunk.js"
   ]
 }

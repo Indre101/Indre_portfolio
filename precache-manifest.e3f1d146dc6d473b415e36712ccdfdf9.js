@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac701c67a0b2030dabf6f839bbcb854a",
+    "revision": "61437628694df43afd26716bdac856a6",
     "url": "/Indre_portfolio/index.html"
   },
   {
-    "revision": "dbe84d407ba2b382e7d9",
-    "url": "/Indre_portfolio/static/css/main.7adead8f.chunk.css"
+    "revision": "7600ccc1969f940aea80",
+    "url": "/Indre_portfolio/static/css/main.5e394985.chunk.css"
   },
   {
     "revision": "9288e5ecfdf6c253be65",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Indre_portfolio/static/js/2.5ef30988.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbe84d407ba2b382e7d9",
-    "url": "/Indre_portfolio/static/js/main.beffb62a.chunk.js"
+    "revision": "7600ccc1969f940aea80",
+    "url": "/Indre_portfolio/static/js/main.7aa1f2ed.chunk.js"
   },
   {
     "revision": "999e4e572f1a71721446",
@@ -194,10 +194,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "810274f08ccc5aef3c797e431fe342b2",
     "url": "/Indre_portfolio/static/media/link.810274f0.svg"
-  },
-  {
-    "revision": "bd357a16bc7a71889cec053cfbe1a2c6",
-    "url": "/Indre_portfolio/static/media/mail-1.bd357a16.svg"
   },
   {
     "revision": "38f7f3372de697a3a42051cc555855a5",
