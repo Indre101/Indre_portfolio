@@ -43,8 +43,8 @@
     "factsAboutTheProject": "The project's premise was that Cinemateket was planning on doing screenings of cult movies, so we were given to choose one of the movies and make a promotional, interactive poster for the movie. Our chosen movie was The Shining, the illustrations were inspired by the Year Walk style. My responsibilities mostly included coding the solution, drawing storyboard and state machine diagram.",
     "video": "poster.mp4",
     "randomFactImg": "poster.png",
-    "randomlink": false,
-    "randomFact": "This was the first group project we had in the school, as well as this was the first time I was working with adding audio to interactions and I finally watched The Shining."
+    "randomlink": "https://codepen.io/indre101/pen/RwPaZJb",
+    "randomFact": "Few months back, there was a small task to play around with animating strings, so I made this animation inspired by the movie The Shining"
   },
   {
     "id": 3,
