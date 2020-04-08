@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
-import "../App.css";
+import "../styles/App.css";
 
 class ProjectsPage extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../App.css";
+import "../styles/App.css";
 
 export default class MenuPopUp extends Component {
   render() {
