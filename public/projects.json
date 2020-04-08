@@ -63,7 +63,7 @@
   },
   {
     "id": 4,
-    "projectName": "Hogwarts strudents list",
+    "projectName": "Hogwarts students list",
     "projectLink": "https://indre101.github.io/Hogwarts-students/",
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
@@ -104,12 +104,12 @@
     "typeOfProject": "Animation/Game",
     "individualOrGroup": "Individual",
     "tools": "JS, HTML, CSS, Adobe Illustrator",
+    "factsAboutTheProject": "The project is sort of like a mini interactive experience that follows Chad, who is a creature that encounters very human choices. The solution was one of the first experiences with using sprite animation. All the illustrations for the sprite sheets were drawn with Adobe Illustrator and animations coded with CSS animation using steps.",
     "featuredImage": "chad.png",
     "icon": "chad.png",
     "randomFactImg": "chad.png",
     "randomlink": false,
-    "randomFact": "So I am notoriously bad at drawing, and one of the things that needed to be done was to draw a worksheet of a character. This is Chad from the left, right, front and back.",
-    "factsAboutTheProject": "The project is sort of like a mini interactive experience that follows Chad, who is a creature that encounters very human choices. The solution was one of the first experiences with using sprite animation. All the illustrations for the sprite sheets were drawn with Adobe Illustrator and animations coded with CSS animation using steps.",
+    "randomFact": "So I am notoriously bad at drawing, and one of the things that needed to be done was to draw a worksheet of the character. This is Chad from the left, right, front and back.",
     "video": "chad.mp4"
   },
 
@@ -147,6 +147,6 @@
     "randomlink": false,
 
     "video": "boot.mp4",
-    "randomFact": "I did this project quite some time ago, so I'd rather just offer you an image of a cat."
+    "randomFact": "I did this project quite some time ago, so I'd rather just offer you this image of a cat."
   }
 ]

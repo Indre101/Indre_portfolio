@@ -891,7 +891,7 @@ RANDOM FACT CONTAINER
 @keyframes changeFormBack {
   0% {
     width: 400px;
-    height: 52vw;
+    height: 70vh;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
@@ -963,7 +963,7 @@ RANDOM FACT CONTAINER
 }
 
 .projectPage[data-id="5"] .randomFact img {
-  height: 42vh;
+  height: 37vh;
 }
 
 .projectPage[data-id="6"] .randomFact img {
