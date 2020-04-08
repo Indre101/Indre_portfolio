@@ -47,30 +47,53 @@ export default class AboutMe extends Component {
 
         <div className="aboutMeModal">
           <div className="inner">
-            <p>
-              Let me tell you more about myself then. I decided to study MMD,
-              because I wanted to change my professional direction, and since I
-              was familiar with front end development from my previous
-              education, I thought It was time to renew my knowledge and gain
-              new skills.
-              <br />
-              I really enjoy coding, the possibilities of everyday improvement,
-              at the moment seems endless. I think that's the greatest appeal of
-              this industry and of course along comes the challenges of being
-              stuck at certain tasks but either way I enjoy it.
-              <br />A little bit about my professional background for about 3
-              years prior to education I was in a beauty/service industry
-              working in my small business. Being self employed was a learning
-              experience and a challenge. One of the main reasons why I decided
-              to pursue MMD education, was that I felt like I wasn't growing
-              professionally anymore. Everyday work tasks seemed very repetitive
-              and I was working mostly alone, so I missed being part of the team
-              as well.
-              <br />
-              Maybe the last few things I'd like to say about me is that I am a
-              a curious person, I tend to teach myself a lot of things on my
-              own. Like taking upon to teach myself SASS, BOOTSTRAP or REACT.
-            </p>
+            <div className="par par-1">
+              <p>
+                Let me tell you more about myself then. I decided to study MMD,
+                because{" "}
+                <strong> I wanted to change my professional direction</strong>,
+                and since I was familiar with front end development from my
+                previous education, I thought It was time to renew my knowledge
+                and gain new skills.
+              </p>
+              <img
+                src={require("../assets/icons/direction.svg")}
+                alt="Direction"
+              />
+            </div>
+            <div className="par par-2">
+              <img src={require("../assets/icons/code-1.svg")} alt="Code" />
+              <p>
+                <strong>I really enjoy coding,</strong> the possibilities of
+                everyday improvement, at the moment seems endless. I think
+                that's the greatest appeal of this industry and of course along
+                comes the challenges of being stuck at certain tasks but either
+                way I enjoy it.
+              </p>
+            </div>
+
+            <div className="par par-3">
+              <p>
+                A little bit about my professional background for about 3 years
+                prior to education I was in a beauty/service industry working in
+                my small business. Being self employed was a learning experience
+                and a challenge. One of the main reasons why I decided to pursue
+                MMD education, was that I felt like I wasn't growing
+                professionally anymore. Everyday work tasks seemed very
+                repetitive and I was working mostly alone, so{" "}
+                <strong>I missed being part of the team as well.</strong>
+              </p>
+              <img src={require("../assets/icons/eye-1.svg")} alt="Eye" />
+            </div>
+            <div className="par par-4">
+              <img src={require("../assets/icons/book-1.svg")} alt="Book" />
+              <p>
+                Maybe the last few things I'd like to say about me is that I am
+                a a curious person, I tend to teach myself a lot of things on my
+                own. Like taking upon to
+                <strong> teach myself SASS, BOOTSTRAP or REACT.</strong>
+              </p>
+            </div>
           </div>
         </div>
 
