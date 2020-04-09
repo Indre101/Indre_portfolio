@@ -272,7 +272,7 @@ section.projectsPageContainer {
 }
 
 .projectsPageContainer {
-  grid-template-rows: 10% 5% auto;
+  grid-template-rows: 20vh auto;
   padding: 0 0 25vh 0;
 }
 .project:hover .projectCard {
@@ -284,7 +284,7 @@ section.projectsPageContainer {
   text-transform: uppercase;
   grid-area: 1/2 / span 1 / span 1;
   color: black;
-  align-self: flex-end;
+  align-self: center;
   justify-self: center;
 }
 
@@ -435,8 +435,8 @@ div.arrowNext:hover h5 {
 
 /* ABOUT ME */
 .aboutMePageContainer {
-  background-color: white;
   display: flex;
+  background-color: #014569;
 }
 
 .infoAboutMe {
@@ -448,7 +448,6 @@ div.arrowNext:hover h5 {
   height: 100vh;
   align-self: center;
   justify-self: center;
-  background-color: #014569;
 }
 
 .infoAboutMe h2 {
@@ -482,7 +481,7 @@ div.icons img {
 
 .infoAboutMe img {
   justify-self: center;
-  width: 63%;
+  width: 50%;
   object-fit: contain;
   filter: var(--shadow);
   filter: grayscale(1);
@@ -494,16 +493,12 @@ ul {
 
 .factsAboutMe li,
 .liButton {
-  /* border-radius: 15px; */
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: white;
-  margin: 3vw 0;
+  margin: 3.5vh 0;
   padding: 1.3em 29px;
   width: 50%;
   background-color: #48ade2;
-
-  /* border-radius: 15px 15px 0; */
-  margin: 2vh;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 97% 93%, 79% 93%, 0 93%);
 }
 
