@@ -440,6 +440,7 @@ div.arrowNext:hover h5 {
 }
 
 .infoAboutMe {
+  grid-template-rows: 15% auto;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
@@ -451,6 +452,7 @@ div.arrowNext:hover h5 {
 }
 
 .infoAboutMe h2 {
+  grid-area: 1/1 / span 1 / span 2;
   padding: 0 30px;
   margin: 3vh 0;
   color: white;
@@ -511,8 +513,13 @@ ul {
   border: none;
   background-color: #48ade2;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 
+.liButton:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 1px 1px 1px 1px rgb(1, 0, 63);
+}
 .textAboutme {
   text-align: left;
 }

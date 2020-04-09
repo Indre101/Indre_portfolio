@@ -22,6 +22,7 @@ export default class AboutMe extends Component {
     return (
       <section id="AboutMe" className="pageSection aboutMePageContainer">
         <div className="infoAboutMe">
+          <h2>About me</h2>
           <div className="infoAboutPart">
             <img src={require("../assets/images/indre-6.png")} alt="It's Me" />
 
@@ -47,7 +48,6 @@ export default class AboutMe extends Component {
             </div>
           </div>
           <div className="text textAboutme">
-            <h2>About me</h2>
             <ul className="factsAboutMe">
               <li>I am a multimedia design programme student at KEA</li>
               <li>
@@ -61,7 +61,7 @@ export default class AboutMe extends Component {
             </ul>
 
             <button className="liButton" onClick={this.toggleAboutMeModal}>
-              Read more about me
+              READ MORE
             </button>
           </div>
         </div>
