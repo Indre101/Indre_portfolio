@@ -32,7 +32,7 @@ export default [
     randomlink: "https://indre101.github.io/code_code/js/robotgame.js/",
 
     randomFact:
-      "This is basically how the old version actually looked like and I am pretty sure I had to constantly look at code academy hints on how to code it. Link to this version ",
+      "This is how the old version looked like and I am pretty sure I had to constantly look at code academy hints on how to code it back then. Link to this version ",
   },
   {
     id: 2,
@@ -70,29 +70,9 @@ export default [
     randomFact:
       "I don't really have a random fact for this project, but did You know that the unicorn is the national animal of Scotland?",
   },
+
   {
     id: 4,
-    projectName: "Hogwarts students list",
-    projectLink: "https://indre101.github.io/Hogwarts-students/",
-    typeOfProject: "Animation/Game",
-    individualOrGroup: "Individual",
-    myResponsibilities: ["Character design", "story developer", "coding"],
-    projectsGoal: "Create and code an animated story",
-    tools: "JS, HTML, CSS, CSS animations",
-    factsAboutTheProject:
-      "The project's premise was that we’re Hogwarts school admins, and are responsible for creating  a student list from fetched data and implementing different functionalities, one of them was hacking the system. This project was mostly focused on working with arrays and objects, and creating a user experience, by giving feedback for users actions. ",
-    featuredImage: "hogwarts.png",
-    icon: "hogwarts.png",
-    randomlink: false,
-
-    video: "hogwarts.mp4",
-    randomFactImg: "hogwarts.png",
-
-    randomFact:
-      "User testing showed that, everyone thought the most exciting part was expelling students.",
-  },
-  {
-    id: 5,
     projectName: "Huset volunteer",
     projectLink: "https://indre101.github.io/huset/",
     typeOfProject: "Animation/Game",
@@ -111,7 +91,7 @@ export default [
       "Volunteer, international student, Danish hipster and event organiser these were the personas that this database was created and meant to have all the required data for all the web apps.",
   },
   {
-    id: 6,
+    id: 5,
     projectName: "Adventures of Chad",
     projectLink: "https://indre101.github.io/Adventures_of_chad/",
     typeOfProject: "Animation/Game",
@@ -129,7 +109,7 @@ export default [
   },
 
   {
-    id: 7,
+    id: 6,
     projectName: "The Office",
     projectLink: "https://indre101.github.io/office/",
     typeOfProject: "Animation/Game",
@@ -149,14 +129,14 @@ export default [
       "One of my favorite qoutes from The Office is “And I knew exactly what to do. But in a much more real sense, I had no idea what to do.” ",
   },
   {
-    id: 8,
+    id: 7,
     projectName: "Bootstrap page template",
     projectLink: "https://indre101.github.io/bootstrap/bootstrap_web_01/",
     typeOfProject: "Animation/Game",
     individualOrGroup: "Individual",
     myResponsibilities: ["Character design", "story developer", "coding"],
     projectsGoal: "Create and code an animated story",
-    tools: "JS,HTML,CSS, Adobe Illustrator, Visual studio Code",
+    tools: "JS, HTML, CSS, Bootstrap",
     factsAboutTheProject:
       "I wanted to learn bootstrap, so after watching quite a few tutorials, I decided to try and recreate one of the possible bootstrap template pages at the time, since the best way of learning is definitely hands on practise especially when it comes to coding.",
     featuredImage: "boot.png",

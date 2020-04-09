@@ -797,8 +797,7 @@ div.technologies p {
 
 .projectPage[data-id="1"] .longerInfo .innerImg,
 .projectPage[data-id="4"] .longerInfo .innerImg,
-.projectPage[data-id="5"] .longerInfo .innerImg,
-.projectPage[data-id="8"] .longerInfo .innerImg {
+.projectPage[data-id="7"] .longerInfo .innerImg {
   height: 6vh;
 }
 /*************
@@ -981,20 +980,19 @@ RANDOM FACT CONTAINER
 .projectPage[data-id="2"] .randomFact img {
   height: 26vh;
 }
-.projectPage[data-id="7"] .randomFact img,
-.projectPage[data-id="4"] .randomFact img {
+.projectPage[data-id="6"] .randomFact img {
   height: 20vh;
 }
 
-.projectPage[data-id="5"] .randomFact img {
+.projectPage[data-id="4"] .randomFact img {
   height: 37vh;
 }
 
-.projectPage[data-id="6"] .randomFact img {
+.projectPage[data-id="5"] .randomFact img {
   height: 21vh;
 }
 
-.projectPage[data-id="8"] .randomFact img {
+.projectPage[data-id="7"] .randomFact img {
   width: 60vw;
   height: auto;
 }
@@ -1002,6 +1000,7 @@ RANDOM FACT CONTAINER
 .randomFact h4 {
   margin: 8% 0;
   font-size: 1.3vw;
+  text-transform: uppercase;
 }
 
 .randomFact p {
@@ -1134,6 +1133,7 @@ CONTACTS PAGE
  **************/
 
 .contactPage {
+  overflow: hidden;
   height: 100vh;
   background-color: black;
   color: white;
