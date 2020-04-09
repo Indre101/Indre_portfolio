@@ -299,6 +299,10 @@ section.projectsPageContainer {
   grid-gap: 1vw 0;
 }
 
+.projects > a {
+  margin: 0 auto;
+}
+
 /* ======
 PROJECT CARD 
 ======*/
@@ -436,7 +440,9 @@ div.arrowNext:hover h5 {
 /* ABOUT ME */
 .aboutMePageContainer {
   display: flex;
+  width: 100%;
   background-color: #014569;
+  justify-content: center;
 }
 
 .infoAboutMe {
@@ -448,6 +454,7 @@ div.arrowNext:hover h5 {
   height: 100vh;
   align-self: center;
   justify-self: center;
+  width: 100%;
 }
 
 .infoAboutMe h2 {
@@ -481,7 +488,7 @@ div.icons img {
 
 .infoAboutMe img {
   justify-self: center;
-  width: 50%;
+  width: 350px;
   object-fit: contain;
   filter: var(--shadow);
   filter: grayscale(1);
@@ -493,11 +500,11 @@ ul {
 
 .factsAboutMe li,
 .liButton {
-  font-size: 1.1vw;
+  font-size: 1.7vh;
   color: white;
   margin: 3.5vh 0;
   padding: 1.3em 29px;
-  width: 50%;
+  width: 350px;
   background-color: #48ade2;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 97% 93%, 79% 93%, 0 93%);
 }
@@ -1019,6 +1026,7 @@ About modal
 
 .aboutMeModal {
   position: fixed;
+  z-index: 111;
   top: 0;
   width: 100%;
   height: 100vh;
@@ -1342,5 +1350,72 @@ Animations
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+/********************
+MEDIA QUERIES 
+********************* */
+
+@media only screen and (max-width: 1250px) {
+  .par {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  div.par {
+    width: 81vw;
+    margin: 0 auto;
+  }
+  .inner p {
+    line-height: 2;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .emailText span {
+    letter-spacing: 0px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .infoAboutPart {
+    grid-area: 2/1 / span 1 / span 2;
+  }
+
+  .infoAboutMe {
+    height: fit-content;
+    padding: 0 0 20vh 0;
+  }
+
+  .textAboutme {
+    grid-area: 3/1 / span 1 / span 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  div.par {
+    width: 98vw;
+    margin: 0 auto;
+  }
+  .inner p {
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .infoAboutMe img {
+    width: 300px;
+  }
+
+  .factsAboutMe li,
+  .liButton {
+    width: 250px;
   }
 }
