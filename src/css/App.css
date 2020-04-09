@@ -1414,6 +1414,7 @@ MEDIA QUERIES
 
   .projectPageList {
     flex-direction: row;
+    overflow-x: hidden;
   }
 
   .projectPage {
@@ -1426,6 +1427,101 @@ MEDIA QUERIES
     width: 100vw;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+  }
+
+  .gifContainer {
+    grid-area: 1/1 / span 1 / span 2;
+    height: 40vh;
+    width: 95vw;
+    justify-self: center;
+  }
+
+  .gifBtnContainer {
+    height: inherit;
+    width: inherit;
+  }
+
+  .controlButtons {
+    bottom: 0;
+    transform: translateX(calc(50vw - 40px));
+  }
+
+  .longerInfo {
+    margin: 3vh 2vh;
+    grid-area: 2/1 / span 1 / span 2;
+    width: 100%;
+  }
+
+  .longerInfo p {
+    width: 85%;
+    font-size: 1.2vh;
+  }
+  div.technologies {
+    width: 100%;
+    margin: 2vh 0 18vh 0;
+  }
+
+  .technologies p {
+    width: 85vw;
+    font-size: 1.2vh;
+  }
+
+  .longerInfo h2 {
+    font-size: 2vh;
+  }
+
+  .longerInfo h3 {
+    font-size: 1.3vh;
+  }
+
+  .longerInfo h5 {
+    font-size: 1.1vh;
+  }
+
+  .longerInfo .innerImg {
+    transform: translate(0, 20vh) scaleX(-1);
+  }
+
+  .innerImgContainer {
+    position: absolute;
+    right: 36%;
+    top: -14vh;
+  }
+
+  .projectInformation {
+    height: 100vh;
+  }
+
+  div.arrow h5 {
+    display: none;
+  }
+
+  .longerInfo .arrowLinks {
+    position: absolute;
+  }
+
+  .arrowLinkPrev {
+    bottom: 6vh;
+    left: -38vw;
+  }
+
+  .arrowLinkNext {
+    bottom: -3vh;
+    left: 45vw;
+  }
+
+  a.arrowLinkNext img {
+    height: 5vh;
+    transform: rotate(180deg);
+  }
+
+  a.arrowLinkPrev img {
+    transform: rotate(0);
+    height: 5vh;
+  }
+
+  .projectPage[data-id="2"] .longerInfo .innerImg {
+    height: 13vh;
   }
 }
 

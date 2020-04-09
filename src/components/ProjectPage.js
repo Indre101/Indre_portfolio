@@ -124,7 +124,9 @@ class ProjectPage extends Component {
 
         <div className="projectInformation">
           <div className="longerInfo">
-            <a href={`#${this.props.activeproject.id - 1}`}>
+            <a
+              className="arrowLinks arrowLinkPrev"
+              href={`#${this.props.activeproject.id - 1}`}>
               <div
                 className="arrow arrowPrevious"
                 data-firstarrow={firstArrowDisplay}
@@ -136,7 +138,9 @@ class ProjectPage extends Component {
                 <h5>prev</h5>
               </div>
             </a>
-            <a href={`#${this.props.activeproject.id + 1}`}>
+            <a
+              className="arrowLinks arrowLinkNext"
+              href={`#${this.props.activeproject.id + 1}`}>
               <div
                 className="arrow arrowNext"
                 data-firstarrow={LastArrowDisplay}
