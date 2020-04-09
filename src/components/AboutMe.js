@@ -26,13 +26,19 @@ export default class AboutMe extends Component {
             <img src={require("../assets/images/indre-6.png")} alt="It's Me" />
 
             <div className="icons">
-              <a href="https://www.linkedin.com/feed/">
+              <a
+                href="https://www.linkedin.com/feed/"
+                rel="noopener noreferrer"
+                target="_blank">
                 <img
                   src={require("../assets/icons/icon-one.png")}
                   alt="Icon of social media"
                 />
               </a>
-              <a href="https://github.com/Indre101">
+              <a
+                href="https://github.com/Indre101"
+                rel="noopener noreferrer"
+                target="_blank">
                 <img
                   src={require("../assets/icons/icon-2.png")}
                   alt="Icon of social media"
