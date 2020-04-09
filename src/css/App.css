@@ -531,12 +531,13 @@ ul {
  ******************/
 
 .projectPageList {
+  flex-direction: column;
   height: 100vh;
   overflow-y: hidden;
   position: fixed;
   top: 0;
   z-index: 1111;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
@@ -545,7 +546,7 @@ ul {
   opacity: 0;
   animation: opacityToOne 0.3s 1.5s linear forwards 1;
 
-  z-index: 111;
+  z-index: 1111;
 }
 
 .closeBtn {
@@ -566,7 +567,7 @@ ul {
 }
 
 .projectPageList[data-visible="true"] {
-  display: block;
+  display: flex;
 }
 
 .projectPageList[data-visible="false"] {
@@ -1371,6 +1372,9 @@ MEDIA QUERIES
   .inner p {
     line-height: 2;
   }
+  .longerInfo h2 {
+    font-size: 3vh;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1406,6 +1410,22 @@ MEDIA QUERIES
   }
   .inner p {
     line-height: 1.5;
+  }
+
+  .projectPageList {
+    flex-direction: row;
+  }
+
+  .projectPage {
+    width: 100vw;
+    grid-template-columns: auto;
+  }
+
+  .projectPageList[data-visible="true"] {
+    display: flex;
+    width: 100vw;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
   }
 }
 
