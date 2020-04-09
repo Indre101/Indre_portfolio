@@ -1009,12 +1009,12 @@ RANDOM FACT CONTAINER
 
 .randomFact h4 {
   margin: 8% 0;
-  font-size: 1.3vw;
+  font-size: 2vh;
   text-transform: uppercase;
 }
 
 .randomFact p {
-  font-size: 1.1vw;
+  font-size: 1.5vh;
   line-height: 3vh;
 }
 
@@ -1522,6 +1522,30 @@ MEDIA QUERIES
 
   .projectPage[data-id="2"] .longerInfo .innerImg {
     height: 13vh;
+  }
+  .innerRandomFact {
+    flex-direction: column;
+  }
+
+  .randomFact img {
+    width: 80% !important;
+    height: auto !important;
+  }
+
+  .projectPage[data-id="4"] .randomFact img {
+    height: 37vh !important;
+  }
+  .randomFactText {
+    width: 70%;
+    justify-self: center;
+  }
+
+  .randomFact p {
+    font-size: 1.8vh;
+  }
+
+  .randomFact h4 {
+    font-size: 2.4vh;
   }
 }
 
