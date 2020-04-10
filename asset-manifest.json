@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Indre_portfolio/static/css/main.679eb2aa.chunk.css",
-    "main.js": "/Indre_portfolio/static/js/main.c89929d5.chunk.js",
-    "main.js.map": "/Indre_portfolio/static/js/main.c89929d5.chunk.js.map",
+    "main.css": "/Indre_portfolio/static/css/main.80760ffc.chunk.css",
+    "main.js": "/Indre_portfolio/static/js/main.a15e93fe.chunk.js",
+    "main.js.map": "/Indre_portfolio/static/js/main.a15e93fe.chunk.js.map",
     "runtime-main.js": "/Indre_portfolio/static/js/runtime-main.01506aba.js",
     "runtime-main.js.map": "/Indre_portfolio/static/js/runtime-main.01506aba.js.map",
     "static/js/2.34249471.chunk.js": "/Indre_portfolio/static/js/2.34249471.chunk.js",
     "static/js/2.34249471.chunk.js.map": "/Indre_portfolio/static/js/2.34249471.chunk.js.map",
     "index.html": "/Indre_portfolio/index.html",
-    "precache-manifest.1ebf46c1dfde28135255eb33cd390acf.js": "/Indre_portfolio/precache-manifest.1ebf46c1dfde28135255eb33cd390acf.js",
+    "precache-manifest.ce1b84a37167982113a4637a641c74fb.js": "/Indre_portfolio/precache-manifest.ce1b84a37167982113a4637a641c74fb.js",
     "service-worker.js": "/Indre_portfolio/service-worker.js",
-    "static/css/main.679eb2aa.chunk.css.map": "/Indre_portfolio/static/css/main.679eb2aa.chunk.css.map",
+    "static/css/main.80760ffc.chunk.css.map": "/Indre_portfolio/static/css/main.80760ffc.chunk.css.map",
     "static/js/2.34249471.chunk.js.LICENSE.txt": "/Indre_portfolio/static/js/2.34249471.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Indre_portfolio/static/media/play-button.75be2c69.svg",
     "static/media/book-1.svg": "/Indre_portfolio/static/media/book-1.09f45795.svg",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.01506aba.js",
     "static/js/2.34249471.chunk.js",
-    "static/css/main.679eb2aa.chunk.css",
-    "static/js/main.c89929d5.chunk.js"
+    "static/css/main.80760ffc.chunk.css",
+    "static/js/main.a15e93fe.chunk.js"
   ]
 }
