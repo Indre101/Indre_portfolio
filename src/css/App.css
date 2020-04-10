@@ -258,14 +258,14 @@ LANDING PAGE
   transform: rotate(-90deg);
   object-fit: contain;
   filter: var(--shadow);
-  animation: slideDwonCat 1.2s ease-in-out forwards 1;
+  animation: slideDownCat 1.2s 0.5s ease-in-out forwards 1;
   opacity: 0;
 }
 
 .glassess {
   opacity: 0;
   transform: rotate(-90deg) translate(0.5vh, 1vw);
-  animation: glassesOn 1.3s 1.2s ease-in-out forwards 1;
+  animation: glassesOn 1.3s 1.4s ease-in-out forwards 1;
 }
 
 .catsPaw {
@@ -1339,7 +1339,7 @@ Animations
   }
 }
 
-@keyframes slideDwonCat {
+@keyframes slideDownCat {
   0% {
     transform: translateX(100vw) rotate(-90deg);
     opacity: 1;
