@@ -1451,7 +1451,7 @@ MEDIA QUERIES
 
   .controlButtons {
     bottom: 0;
-    transform: translateX(calc(50vw - 40px));
+    transform: translateX(calc(50vw - 5vh));
   }
 
   .closeBtn {

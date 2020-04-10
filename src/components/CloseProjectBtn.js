@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CloseProjectBtn(props) {
   return (
-    <div className="controlButtons">
+    <div className="controlButtons safari_only">
       <button
         className="closeBtn"
         onClick={() => {

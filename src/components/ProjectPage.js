@@ -89,7 +89,7 @@ class ProjectPage extends Component {
       <div
         data-id={this.props.activeproject.id}
         id={this.props.activeproject.id}
-        className={`projectPage safari_only ${isProjectPageDisplayed}`}>
+        className={`projectPage  ${isProjectPageDisplayed}`}>
         <div
           className={`randomFactBg `}
           data-visible={`${this.state.isRandomIconClicked}`}
@@ -125,7 +125,7 @@ class ProjectPage extends Component {
         <div className="projectInformation">
           <div className="longerInfo">
             <a
-              className="arrowLinks arrowLinkPrev"
+              className="arrowLinks arrowLinkPrev safari_only"
               href={`#${this.props.activeproject.id - 1}`}>
               <div
                 className="arrow arrowPrevious"
@@ -139,7 +139,7 @@ class ProjectPage extends Component {
               </div>
             </a>
             <a
-              className="arrowLinks arrowLinkNext"
+              className="arrowLinks arrowLinkNext safari_only"
               href={`#${this.props.activeproject.id + 1}`}>
               <div
                 className="arrow arrowNext"
