@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Indre_portfolio/static/css/main.281b5188.chunk.css",
+    "main.css": "/Indre_portfolio/static/css/main.6f3cb932.chunk.css",
     "main.js": "/Indre_portfolio/static/js/main.6e3d3698.chunk.js",
     "main.js.map": "/Indre_portfolio/static/js/main.6e3d3698.chunk.js.map",
     "runtime-main.js": "/Indre_portfolio/static/js/runtime-main.01506aba.js",
@@ -8,9 +8,9 @@
     "static/js/2.5ef30988.chunk.js": "/Indre_portfolio/static/js/2.5ef30988.chunk.js",
     "static/js/2.5ef30988.chunk.js.map": "/Indre_portfolio/static/js/2.5ef30988.chunk.js.map",
     "index.html": "/Indre_portfolio/index.html",
-    "precache-manifest.42efcd61ef90515dd730d81caa8d63bc.js": "/Indre_portfolio/precache-manifest.42efcd61ef90515dd730d81caa8d63bc.js",
+    "precache-manifest.f2caf01f3fe600b7ec69558fbb3cc956.js": "/Indre_portfolio/precache-manifest.f2caf01f3fe600b7ec69558fbb3cc956.js",
     "service-worker.js": "/Indre_portfolio/service-worker.js",
-    "static/css/main.281b5188.chunk.css.map": "/Indre_portfolio/static/css/main.281b5188.chunk.css.map",
+    "static/css/main.6f3cb932.chunk.css.map": "/Indre_portfolio/static/css/main.6f3cb932.chunk.css.map",
     "static/js/2.5ef30988.chunk.js.LICENSE.txt": "/Indre_portfolio/static/js/2.5ef30988.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Indre_portfolio/static/media/play-button.75be2c69.svg",
     "static/media/book-1.svg": "/Indre_portfolio/static/media/book-1.09f45795.svg",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.01506aba.js",
     "static/js/2.5ef30988.chunk.js",
-    "static/css/main.281b5188.chunk.css",
+    "static/css/main.6f3cb932.chunk.css",
     "static/js/main.6e3d3698.chunk.js"
   ]
 }
