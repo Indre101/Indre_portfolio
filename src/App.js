@@ -17,13 +17,18 @@ class App extends Component {
       isProjectPageDisplayed: false,
       projects: [],
       projectIconAnimation: true,
+      isLoaded: false,
     };
 
     this.toggleMenu = this.toggleMenu.bind(this);
     this.toggleProjectPage = this.toggleProjectPage.bind(this);
     this.stopProjectIconAnimation = this.stopProjectIconAnimation.bind(this);
+    this.togglePreloader = this.togglePreloader.bind(this);
   }
 
+  togglePreloader() {
+    this.setState({ isLoaded: true });
+  }
   toggleMenu() {
     this.setState((prevState) => {
       return {
@@ -43,11 +48,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // fetch("projects.json")
-    //   .then((res) => res.json())
-    //   .then((data) => {
     this.setState({ projects: data });
-    // });
+    this.togglePreloader();
   }
 
   toggleProjectPage() {
@@ -59,6 +61,7 @@ class App extends Component {
   }
 
   render() {
+    const preloaderDisplay = this.state.isLoaded ? "d-none" : "d-flex";
     const displayProjectPage = this.state.isProjectPageDisplayed
       ? this.state.projects.map((project) => (
           <ProjectPage
@@ -78,6 +81,14 @@ class App extends Component {
       : false;
     return (
       <div>
+        <div className={`preloader ${preloaderDisplay}`}>
+          <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
         <FirstPage
           toggleMenu={this.toggleMenu}
           isMenuOpen={this.state.isMenuOpen}
