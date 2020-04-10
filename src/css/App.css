@@ -1403,6 +1403,14 @@ MEDIA QUERIES
   }
 }
 
+@media screen and (max-width: 650px) {
+  _::-webkit-full-page-media,
+  _:future,
+  :root .safari_only {
+    padding-bottom: 15vh;
+  }
+}
+
 @media only screen and (max-width: 650px) {
   div.par {
     width: 98vw;
@@ -1507,12 +1515,17 @@ MEDIA QUERIES
 
   .arrowLinkPrev {
     bottom: 6vh;
-    left: -38vw;
+    left: 5vw;
   }
 
   .arrowLinkNext {
-    bottom: -3vh;
-    left: 45vw;
+    bottom: 4vh;
+    left: 80vw;
+  }
+  .arrowNext,
+  div.arrowPrevious {
+    bottom: auto;
+    left: auto;
   }
 
   a.arrowLinkNext img {

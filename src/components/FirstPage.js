@@ -4,7 +4,9 @@ import MenuButton from "./MenuButton";
 class FirstPage extends Component {
   render() {
     return (
-      <div id="landingPageContainer" className="landingPageContainer">
+      <div
+        id="landingPageContainer"
+        className="landingPageContainer safari_only">
         <MenuButton
           toggleMenu={this.props.toggleMenu}
           isMenuOpen={this.props.isMenuOpen}

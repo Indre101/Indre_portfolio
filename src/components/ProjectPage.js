@@ -89,7 +89,7 @@ class ProjectPage extends Component {
       <div
         data-id={this.props.activeproject.id}
         id={this.props.activeproject.id}
-        className={`projectPage ${isProjectPageDisplayed}`}>
+        className={`projectPage safari_only ${isProjectPageDisplayed}`}>
         <div
           className={`randomFactBg `}
           data-visible={`${this.state.isRandomIconClicked}`}
