@@ -132,7 +132,7 @@ class ProjectPage extends Component {
                 data-firstarrow={firstArrowDisplay}
                 onClick={this.stopVideo}>
                 <img
-                  src={require("../assets/icons/left-arrow-grey.svg")}
+                  src={require("../assets/icons/left-arrow-grey-3.png")}
                   alt=""
                 />
                 <h5>prev</h5>
@@ -147,7 +147,7 @@ class ProjectPage extends Component {
                 onClick={this.stopVideo}>
                 <h5>next</h5>
                 <img
-                  src={require("../assets/icons/left-arrow-grey.svg")}
+                  src={require("../assets/icons/left-arrow-grey-3.png")}
                   alt=""
                 />
               </div>
@@ -211,7 +211,7 @@ class ProjectPage extends Component {
               data-firstarrow={firstArrowDisplay}
               onClick={this.stopVideo}>
               <img
-                src={require("../assets/icons/left-arrow-grey.svg")}
+                src={require("../assets/icons/left-arrow-grey-3.png")}
                 alt=""
               />
             </div>
@@ -232,7 +232,7 @@ class ProjectPage extends Component {
               data-firstarrow={LastArrowDisplay}
               onClick={this.stopVideo}>
               <img
-                src={require("../assets/icons/left-arrow-grey.svg")}
+                src={require("../assets/icons/left-arrow-grey-3.png")}
                 alt=""
               />
             </div>

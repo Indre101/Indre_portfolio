@@ -87,7 +87,7 @@ export default class AboutMe extends Component {
               />
             </div>
             <div className="par par-2">
-              <img src={require("../assets/icons/code-1.svg")} alt="Code" />
+              <img src={require("../assets/icons/code-1.png")} alt="Code" />
               <p>
                 <strong>I really enjoy coding,</strong> the possibilities of
                 everyday improvement, at the moment seems endless. I think
