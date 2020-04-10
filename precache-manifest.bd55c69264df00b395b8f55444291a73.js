@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67932ec8adec80358585cc9a4f5316f7",
+    "revision": "f263e3d4ee10a5dd8a300b34c81587b8",
     "url": "/Indre_portfolio/index.html"
   },
   {
-    "revision": "5c4e0aa68b7bfeab7751",
-    "url": "/Indre_portfolio/static/css/main.f559fa7a.chunk.css"
+    "revision": "31a4879adc8116da0d81",
+    "url": "/Indre_portfolio/static/css/main.ab96968e.chunk.css"
   },
   {
-    "revision": "9288e5ecfdf6c253be65",
-    "url": "/Indre_portfolio/static/js/2.5ef30988.chunk.js"
+    "revision": "b45668b9acad1b40539a",
+    "url": "/Indre_portfolio/static/js/2.34249471.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Indre_portfolio/static/js/2.5ef30988.chunk.js.LICENSE.txt"
+    "url": "/Indre_portfolio/static/js/2.34249471.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c4e0aa68b7bfeab7751",
-    "url": "/Indre_portfolio/static/js/main.77113755.chunk.js"
+    "revision": "31a4879adc8116da0d81",
+    "url": "/Indre_portfolio/static/js/main.c89929d5.chunk.js"
   },
   {
     "revision": "999e4e572f1a71721446",
