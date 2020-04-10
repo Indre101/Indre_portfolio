@@ -49,7 +49,9 @@ export default class AboutMe extends Component {
           </div>
           <div className="text textAboutme">
             <ul className="factsAboutMe">
-              <li>I am a multimedia design programme student at KEA</li>
+              <li>
+                I am a 3rd semester multimedia design programme student at KEA
+              </li>
               <li>
                 I enjoy coding, a lot, why? because it is challenging but it's
                 very gratifying to see the growth in my skills
