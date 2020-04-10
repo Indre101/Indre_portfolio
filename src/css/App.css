@@ -373,7 +373,7 @@ ARROWS
   align-items: center;
   writing-mode: vertical-lr;
   text-orientation: upright;
-  transition: filter 0.2s ease-in, transform 0.2s ease-in;
+  /* transition: filter 0.2s ease-in, transform 0.2s ease-in; */
   cursor: pointer;
 }
 .arrow img {
@@ -1508,6 +1508,23 @@ MEDIA QUERIES
 
   div.arrow h5 {
     display: none;
+  }
+
+  .arrow img {
+    transition: none;
+    transform: none;
+  }
+
+  div.arrowPrevious {
+    transition: none;
+  }
+
+  div.arrowNext:hover img {
+    transform: none;
+  }
+
+  div.arrowPrevious:hover img {
+    transform: none;
   }
 
   .longerInfo .arrowLinks {
