@@ -1359,10 +1359,10 @@ MOBILE PROJECT MENU
 ********* */
 .mobileMenu {
   display: none;
+  grid-template-columns: repeat(3, 1fr);
   position: absolute;
-  width: 90vw;
-  justify-content: space-between;
   justify-self: center;
+  width: 95vw;
   bottom: 0;
 }
 
@@ -1370,8 +1370,14 @@ MOBILE PROJECT MENU
   height: 5vh;
 }
 
+.closeBtnMobile {
+  justify-self: center;
+}
 .arrowLinkNextMobile img {
   transform: rotate(180deg);
+}
+.arrowLinkNextMobile {
+  justify-self: flex-end;
 }
 
 /********************
@@ -1433,7 +1439,7 @@ MEDIA QUERIES
 
 @media only screen and (max-width: 650px) {
   .mobileMenu {
-    display: flex;
+    display: grid;
   }
   .controlButtons {
     display: none;
