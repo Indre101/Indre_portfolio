@@ -201,6 +201,43 @@ class ProjectPage extends Component {
               onClick={this.handleVideoClick}></video>
           </div>
         </div>
+
+        <div className="mobileMenu safari_only">
+          <a
+            className="arrowLinksMobile arrowLinkPrevMobile "
+            href={`#${this.props.activeproject.id - 1}`}>
+            <div
+              className=""
+              data-firstarrow={firstArrowDisplay}
+              onClick={this.stopVideo}>
+              <img
+                src={require("../assets/icons/left-arrow-grey.svg")}
+                alt=""
+              />
+            </div>
+          </a>
+          <div
+            className="closeBtnMobile"
+            onClick={() => this.props.toggleProjectPage()}>
+            <img
+              src={require("../assets/icons/close.svg")}
+              alt="Close button"
+            />
+          </div>
+          <a
+            className="arrowLinksMobile arrowLinkNextMobile"
+            href={`#${this.props.activeproject.id + 1}`}>
+            <div
+              className=""
+              data-firstarrow={LastArrowDisplay}
+              onClick={this.stopVideo}>
+              <img
+                src={require("../assets/icons/left-arrow-grey.svg")}
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
       </div>
     );
   }

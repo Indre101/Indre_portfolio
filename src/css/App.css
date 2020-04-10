@@ -1354,6 +1354,26 @@ Animations
   }
 }
 
+/* ***********
+MOBILE PROJECT MENU
+********* */
+.mobileMenu {
+  display: none;
+  position: absolute;
+  width: 90vw;
+  justify-content: space-between;
+  justify-self: center;
+  bottom: 0;
+}
+
+.mobileMenu img {
+  height: 5vh;
+}
+
+.arrowLinkNextMobile img {
+  transform: rotate(180deg);
+}
+
 /********************
 MEDIA QUERIES 
 ********************* */
@@ -1412,6 +1432,16 @@ MEDIA QUERIES
 }
 
 @media only screen and (max-width: 650px) {
+  .mobileMenu {
+    display: flex;
+  }
+  .controlButtons {
+    display: none;
+  }
+
+  .longerInfo a {
+    display: none;
+  }
   div.par {
     width: 98vw;
     margin: 0 auto;
@@ -1447,17 +1477,6 @@ MEDIA QUERIES
   .gifBtnContainer {
     height: inherit;
     width: inherit;
-  }
-
-  .controlButtons {
-    bottom: 0;
-    transform: translateX(calc(50vw - 2vh));
-  }
-
-  .closeBtn {
-    height: 5vh;
-    width: 5vh;
-    margin: 1vh 0;
   }
 
   .longerInfo {
@@ -1504,56 +1523,6 @@ MEDIA QUERIES
 
   .projectInformation {
     height: 100vh;
-  }
-
-  div.arrow h5 {
-    display: none;
-  }
-
-  .arrow img {
-    transition: none;
-    transform: none;
-  }
-
-  div.arrowPrevious {
-    transition: none;
-  }
-
-  div.arrowNext:hover img {
-    transform: none;
-  }
-
-  div.arrowPrevious:hover img {
-    transform: none;
-  }
-
-  .longerInfo .arrowLinks {
-    position: absolute;
-  }
-
-  .arrowLinkPrev {
-    bottom: 5vh;
-    left: 0;
-  }
-
-  .arrowLinkNext {
-    bottom: 3vh;
-    left: 89vw;
-  }
-  .arrowNext,
-  div.arrowPrevious {
-    bottom: auto;
-    left: auto;
-  }
-
-  a.arrowLinkNext img {
-    height: 5vh;
-    transform: rotate(180deg);
-  }
-
-  a.arrowLinkPrev img {
-    transform: rotate(0);
-    height: 5vh;
   }
 
   .projectPage[data-id="2"] .longerInfo .innerImg {
