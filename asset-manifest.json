@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Indre_portfolio/static/css/main.4346426b.chunk.css",
-    "main.js": "/Indre_portfolio/static/js/main.4ee36282.chunk.js",
-    "main.js.map": "/Indre_portfolio/static/js/main.4ee36282.chunk.js.map",
+    "main.js": "/Indre_portfolio/static/js/main.4cc18eb6.chunk.js",
+    "main.js.map": "/Indre_portfolio/static/js/main.4cc18eb6.chunk.js.map",
     "runtime-main.js": "/Indre_portfolio/static/js/runtime-main.01506aba.js",
     "runtime-main.js.map": "/Indre_portfolio/static/js/runtime-main.01506aba.js.map",
     "static/js/2.34249471.chunk.js": "/Indre_portfolio/static/js/2.34249471.chunk.js",
     "static/js/2.34249471.chunk.js.map": "/Indre_portfolio/static/js/2.34249471.chunk.js.map",
     "index.html": "/Indre_portfolio/index.html",
-    "precache-manifest.16072961a2740ab29f9fa81e945f6e3c.js": "/Indre_portfolio/precache-manifest.16072961a2740ab29f9fa81e945f6e3c.js",
+    "precache-manifest.27f9f6688fdb2ee9b42c38a51c4f7ed2.js": "/Indre_portfolio/precache-manifest.27f9f6688fdb2ee9b42c38a51c4f7ed2.js",
     "service-worker.js": "/Indre_portfolio/service-worker.js",
     "static/css/main.4346426b.chunk.css.map": "/Indre_portfolio/static/css/main.4346426b.chunk.css.map",
     "static/js/2.34249471.chunk.js.LICENSE.txt": "/Indre_portfolio/static/js/2.34249471.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Indre_portfolio/static/media/play-button.75be2c69.svg",
     "static/media/book-1.svg": "/Indre_portfolio/static/media/book-1.09f45795.svg",
     "static/media/boot.svg": "/Indre_portfolio/static/media/boot.4b07710d.svg",
-    "static/media/boot.png": "/Indre_portfolio/static/media/boot.8d64537a.png",
     "static/media/boot.gif": "/Indre_portfolio/static/media/boot.7c081128.gif",
+    "static/media/boot.png": "/Indre_portfolio/static/media/boot.caea4d06.png",
     "static/media/boot.mp4": "/Indre_portfolio/static/media/boot.f52875af.mp4",
     "static/media/celine.png": "/Indre_portfolio/static/media/celine.77a1a861.png",
     "static/media/celine.mp4": "/Indre_portfolio/static/media/celine.26043ba9.mp4",
@@ -37,14 +37,14 @@
     "static/media/huset.svg": "/Indre_portfolio/static/media/huset.2ba05ae2.svg",
     "static/media/huset.png": "/Indre_portfolio/static/media/huset.d56a7e59.png",
     "static/media/indre-6.png": "/Indre_portfolio/static/media/indre-6.842cfdf4.png",
-    "static/media/invention.png": "/Indre_portfolio/static/media/invention.9bc9ed70.png",
     "static/media/invention.mp4": "/Indre_portfolio/static/media/invention.77a19be3.mp4",
+    "static/media/invention.png": "/Indre_portfolio/static/media/invention.b8d5e653.png",
     "static/media/invention.svg": "/Indre_portfolio/static/media/invention.e9b84989.svg",
     "static/media/left-arrow-grey.svg": "/Indre_portfolio/static/media/left-arrow-grey.9798f185.svg",
     "static/media/link.svg": "/Indre_portfolio/static/media/link.810274f0.svg",
     "static/media/office.mp4": "/Indre_portfolio/static/media/office.38f7f337.mp4",
     "static/media/office.gif": "/Indre_portfolio/static/media/office.427baa0d.gif",
-    "static/media/office.png": "/Indre_portfolio/static/media/office.9ab764e7.png",
+    "static/media/office.png": "/Indre_portfolio/static/media/office.e0166932.png",
     "static/media/poster.png": "/Indre_portfolio/static/media/poster.f69b625b.png",
     "static/media/poster.mp4": "/Indre_portfolio/static/media/poster.7662fb39.mp4"
   },
@@ -52,6 +52,6 @@
     "static/js/runtime-main.01506aba.js",
     "static/js/2.34249471.chunk.js",
     "static/css/main.4346426b.chunk.css",
-    "static/js/main.4ee36282.chunk.js"
+    "static/js/main.4cc18eb6.chunk.js"
   ]
 }
