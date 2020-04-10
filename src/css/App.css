@@ -1446,6 +1446,11 @@ MEDIA QUERIES
     transform: translateX(calc(50vw - 40px));
   }
 
+  .closeBtn {
+    height: 5vh;
+    width: 5vh;
+  }
+
   .longerInfo {
     margin: 3vh 2vh;
     grid-area: 2/1 / span 1 / span 2;
@@ -1461,8 +1466,8 @@ MEDIA QUERIES
     margin: 2vh 0 18vh 0;
   }
 
-  .technologies p {
-    width: 85vw;
+  div.technologies p {
+    width: 90vw;
     font-size: 1.2vh;
   }
 
@@ -1523,18 +1528,26 @@ MEDIA QUERIES
   .projectPage[data-id="2"] .longerInfo .innerImg {
     height: 13vh;
   }
+
+  div.projectPage .randomFact .innerRandomFact > img {
+    width: 64vw;
+    height: auto;
+  }
+
+  div.projectPage[data-id="3"] .randomFact .innerRandomFact > img {
+    width: 51vw;
+    height: auto;
+  }
+
+  div.projectPage[data-id="4"] .randomFact .innerRandomFact > img {
+    width: 43vw;
+    height: auto;
+  }
+
   .innerRandomFact {
     flex-direction: column;
   }
 
-  .randomFact img {
-    width: 80% !important;
-    height: auto !important;
-  }
-
-  .projectPage[data-id="4"] .randomFact img {
-    height: 37vh !important;
-  }
   .randomFactText {
     width: 70%;
     justify-self: center;
