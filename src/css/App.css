@@ -1451,12 +1451,13 @@ MEDIA QUERIES
 
   .controlButtons {
     bottom: 0;
-    transform: translateX(calc(50vw - 5vh));
+    transform: translateX(calc(50vw - 2vh));
   }
 
   .closeBtn {
     height: 5vh;
     width: 5vh;
+    margin: 1vh 0;
   }
 
   .longerInfo {
@@ -1514,13 +1515,13 @@ MEDIA QUERIES
   }
 
   .arrowLinkPrev {
-    bottom: 6vh;
-    left: 5vw;
+    bottom: 5vh;
+    left: 0;
   }
 
   .arrowLinkNext {
-    bottom: 4vh;
-    left: 80vw;
+    bottom: 3vh;
+    left: 89vw;
   }
   .arrowNext,
   div.arrowPrevious {
