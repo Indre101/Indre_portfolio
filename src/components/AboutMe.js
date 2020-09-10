@@ -50,7 +50,7 @@ export default class AboutMe extends Component {
           <div className="text textAboutme">
             <ul className="factsAboutMe">
               <li>
-                I am a 3rd semester multimedia design programme student at KEA
+                I am a 4th semester multimedia design programme student at KEA
               </li>
               <li>
                 I enjoy coding, a lot, why? because it is challenging but it's
@@ -58,7 +58,10 @@ export default class AboutMe extends Component {
               </li>
               <li>I was self employed for 3 years prior to education</li>
 
-              <li>At the moment I am teaching myself React</li>
+              <li>
+                At the moment I am working as a Front end developer at my
+                internship coding in React Typescript
+              </li>
               <li>I am motivated, positive and friendly person</li>
             </ul>
 
